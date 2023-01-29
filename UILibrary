@@ -1,16 +1,3 @@
---[[
-edited: 10/1/22 (spooky month)
-developers:
-v3rm AbstractPoo	discord Abstract#8007
-v3rm 0xDEITY		discord Deity#0228
-
-forker:
-discord Compwnter#5640
-
-TODO:
-- finish SECTION and LABEL
-]]
-
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
@@ -738,7 +725,7 @@ function Library:create(options)
 		Position = UDim2.new(0, 5, 1, -6),
 		Size = UDim2.new(0.2, 0, 0, 10),
 		Font = Enum.Font.SourceSans,
-		Text = "Status | Idle",
+		Text = "Status | Online",
 		Theme = {
 			TextColor3 = "Tertiary"
 		},
@@ -747,7 +734,7 @@ function Library:create(options)
 	})
 
 	local homeButton = tabButtons:object("TextButton", {
-		Name = "hehehe siuuuuuuuuu",
+		Name = "PLACER",
 		BackgroundTransparency = 0,
 		Theme = {
 			BackgroundColor3 = "Secondary"
@@ -886,7 +873,7 @@ function Library:create(options)
 
 		local displayName = profile:object("TextLabel", {
 			RichText = true,
-			Text = "Welcome, <font color='rgb("..math.floor(c.R * 255)..","..math.floor(c.G * 255)..","..math.floor(c.B * 255)..")'> <b>"..LocalPlayer.DisplayName.."</b> </font>",
+			Text = "Welcome To Venus, <font color='rgb("..math.floor(c.R * 255)..","..math.floor(c.G * 255)..","..math.floor(c.B * 255)..")'> <b>"..LocalPlayer.DisplayName.."</b> </font>",
 			TextScaled = true,
 			Position = UDim2.new(0, 105, 0, 10),
 			Theme = {
@@ -3549,7 +3536,7 @@ function Library:credit(options)
 				Size = UDim2.fromOffset(24, 24),
 				Position = UDim2.new(1, -40, 1, -8),
 				Theme = {BackgroundColor3 = {"Main", 10}}
-			}):round(5):tooltip("copy v3rm")
+			}):round(5):tooltip("Copy V3rmillion")
 			local v3rmillion = v3rmillionContainer:object("ImageLabel", {
 				Image = "http://www.roblox.com/asset/?id=8594086769",
 				Size = UDim2.new(1, -4, 1, -4),
@@ -3836,7 +3823,7 @@ function Library:prompt(options)
 	options = self:set_defaults({
 		Followup = false,
 		Title = "Prompt",
-		Text = "yo momma dead",
+		Text = "PLACER",
 		Buttons = {
 			ok = function()
 				return true
@@ -4048,7 +4035,7 @@ function Library:prompt(options)
 	end
 end
 
-function Library:cp(options) -- wtf sus
+function Library:cp(options)
 	return Library.color_picker(self, options)
 end
 function Library:colorpicker(options)
@@ -4221,7 +4208,7 @@ end
 function Library:textbox(options)
 	options = self:set_defaults({
 		Name = "Text Box",
-		Placeholder = "Type something..",
+		Placeholder = "Type Here...",
 		Description = nil,
 		Named = false,
 		Callback = function(t)
@@ -4356,8 +4343,8 @@ end
 
 function Library:label(options)
 	options = self:set_defaults({
-		Text = "Label title",
-		Description = "Label text",
+		Text = "Label",
+		Description = "Label Text",
 	}, options)
 
 	local labelContainer = self.container:object("TextButton", {
