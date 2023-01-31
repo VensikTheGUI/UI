@@ -1,17 +1,11 @@
 --[[
+RoadToGlory#9879
+gunna#6666
 
-â–‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—â–‘â–‘â–‘â–‘â–‘â–‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–‘â–‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
-â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–‘â–‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â•â•
-â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–‘â–‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–‘
-â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–‘â–‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â–‘â•šâ•â•â•â–ˆâ–ˆâ•—
-â–ˆâ–ˆâ•‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â–‘â–‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•
-â•šâ•â•â–‘â–‘â•šâ•â•â–‘â–‘â–‘â•šâ•â•â–‘â–‘â–‘â•šâ•â•â•â•â•â•â•â•šâ•â•â–‘â–‘â•šâ•â•â•šâ•â•â•â•â•â•â–‘
 
-Made by RoadToGlory#9879
-Edited by gunna#6666
 ]]
 
-local VERSION = "1.2"
+local VERSION = "2.0"
 
 -- LURAPH (if i left it enabled)
 if not LPH_OBFUSCATED then
@@ -73,7 +67,7 @@ do
     end
 
     function utility:Warn(...)
-        warn("ARTEMIS:", ...)
+        warn("VNS : ", ...)
     end
 
     function utility:Wait()
@@ -115,7 +109,7 @@ do
 
     function utility:FormatNumber(number,decimalPlaces)
         if not typeof(number)=="number" then
-            error("Arg 1 must be a number")
+            error("Argument Must Be A Number")
         end
         decimalPlaces = math.clamp(decimalPlaces,0,math.huge)
         local exp = 10^decimalPlaces
@@ -139,7 +133,6 @@ do
 
     function utility:DoClickEffect(element)
         local function makeEffect()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["__buttonEffect"] = Instance.new("Frame");
                 ["_ImageLabel"] = Instance.new("ImageLabel");
@@ -1554,7 +1547,7 @@ do
 
             Converted["_TextBox"].Font = Enum.Font.Gotham
             Converted["_TextBox"].PlaceholderColor3 = Color3.fromRGB(165.00000536441803, 165.00000536441803, 165.00000536441803)
-            Converted["_TextBox"].PlaceholderText = "search"
+            Converted["_TextBox"].PlaceholderText = "Search"
             Converted["_TextBox"].Text = ""
             Converted["_TextBox"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_TextBox"].TextSize = 13
