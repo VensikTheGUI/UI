@@ -13,6 +13,7 @@ Edited by gunna#6666
 
 local VERSION = "1.2"
 
+-- LURAPH (if i left it enabled)
 if not LPH_OBFUSCATED then
     local function r(...)
         return ...
