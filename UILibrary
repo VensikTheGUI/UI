@@ -58,7 +58,7 @@ Library.Icons = {
 
 local old_warn = warn
 local warn = function(...)
-    old_warn("[VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS]",...)
+    old_warn("[ATLAS]",...)
 end
 
 -- UTILITY
@@ -347,7 +347,7 @@ end
 do
     function Library.new(info)
         -- Requirements
-        utility:Requirement(type(info)=="table","Info must be a table!")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
         utility:Requirement(info.Name,"Missing config folder argument")
         if info.Color==nil then
             info.Color = Color3.fromRGB(164, 53, 90)
@@ -721,7 +721,7 @@ do
             Converted["_ImageLabel2"].Parent = Converted["_Input"]
 
             Converted["_Message1"].Font = Enum.Font.Gotham
-            Converted["_Message1"].Text = "The Weekly Key Is In The Discord, Copy It From The Button Below."
+            Converted["_Message1"].Text = "The key is in the discord server. Copy the  invite by pressing the button above."
             Converted["_Message1"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Message1"].TextScaled = true
             Converted["_Message1"].TextSize = 1
@@ -773,7 +773,7 @@ do
             Converted["_Ignore6"].Parent = Converted["_Theme6"]
 
             Converted["_Directions"].Font = Enum.Font.GothamMedium
-            Converted["_Directions"].Text = "Enter Access Key Below"
+            Converted["_Directions"].Text = "Enter key below"
             Converted["_Directions"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Directions"].TextSize = 13
             Converted["_Directions"].TextTruncate = Enum.TextTruncate.AtEnd
@@ -829,7 +829,7 @@ do
             Converted["_UIGradient3"].Parent = Converted["_Button"]
 
             Converted["_TextLabel2"].Font = Enum.Font.Gotham
-            Converted["_TextLabel2"].Text = "Copied To Clipboard."
+            Converted["_TextLabel2"].Text = "Copied"
             Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(225.00001698732376, 225.00001698732376, 225.00001698732376)
             Converted["_TextLabel2"].TextSize = 13
             Converted["_TextLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -874,7 +874,7 @@ do
             Converted["_Profile"].Parent = Converted["_Loader"]
 
             Converted["_Title2"].Font = Enum.Font.GothamBold
-            Converted["_Title2"].Text = "Welcome."
+            Converted["_Title2"].Text = "Welcome back."
             Converted["_Title2"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Title2"].TextSize = 18
             Converted["_Title2"].TextTruncate = Enum.TextTruncate.AtEnd
@@ -1026,12 +1026,15 @@ do
         info.RankColor = info.RankColor or Color3.new(0,1,0)
 
         if info.CheckKey and not info.Discord then
+            warn("You must include a discord argument when using check key argument!")
+            wait(9e9)
+            error()
         end
 
         local function makeLibrary()
             -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
-                ["_VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"] = Instance.new("ScreenGui");
+                ["_Atlas"] = Instance.new("ScreenGui");
                 ["_UI_Library"] = Instance.new("Folder");
                 ["_Name"] = Instance.new("StringValue");
                 ["_Creator"] = Instance.new("StringValue");
@@ -1186,17 +1189,17 @@ do
 
             --Properties
 
-            Converted["_VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"].DisplayOrder = 99
-            Converted["_VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"].IgnoreGuiInset = true
-            Converted["_VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"].ResetOnSpawn = false
-            Converted["_VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-            Converted["_VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"].Name = "VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"
-            Converted["_VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"].Parent = game:GetService("CoreGui")
+            Converted["_Atlas"].DisplayOrder = 99
+            Converted["_Atlas"].IgnoreGuiInset = true
+            Converted["_Atlas"].ResetOnSpawn = false
+            Converted["_Atlas"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+            Converted["_Atlas"].Name = "Atlas"
+            Converted["_Atlas"].Parent = game:GetService("CoreGui")
 
             Converted["_UI_Library"].Name = "UI_Library"
-            Converted["_UI_Library"].Parent = Converted["_VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"]
+            Converted["_UI_Library"].Parent = Converted["_Atlas"]
 
-            Converted["_Name"].Value = "VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS UI Library"
+            Converted["_Name"].Value = "Atlas UI Library"
             Converted["_Name"].Name = "Name"
             Converted["_Name"].Parent = Converted["_UI_Library"]
 
@@ -1214,7 +1217,7 @@ do
             Converted["_Main"].Size = UDim2.new(0, 640, 0, 438)
             Converted["_Main"].ZIndex = 100
             Converted["_Main"].Name = "Main"
-            Converted["_Main"].Parent = Converted["_VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"]
+            Converted["_Main"].Parent = Converted["_Atlas"]
 
             Converted["_Contents"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Converted["_Contents"].BackgroundTransparency = 1
@@ -1362,7 +1365,7 @@ do
             Converted["_Ignore4"].Parent = Converted["_Theme4"]
 
             Converted["_Title"].Font = Enum.Font.GothamBlack
-            Converted["_Title"].Text = "VNSAKAVNSAKAVNSAKAVNSAKAVNSAKAATLAS"
+            Converted["_Title"].Text = "Atlas"
             Converted["_Title"].TextColor3 = Color3.fromRGB(164.00000542402267, 53.00000064074993, 90.00000223517418)
             Converted["_Title"].TextSize = 16
             Converted["_Title"].TextTruncate = Enum.TextTruncate.AtEnd
@@ -1445,7 +1448,7 @@ do
             Converted["_B"].Parent = Converted["_Frame"]
 
             Converted["_A"].Font = Enum.Font.Gotham
-            Converted["_A"].Text = "Venus"
+            Converted["_A"].Text = "VNS"
             Converted["_A"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_A"].TextSize = 12
             Converted["_A"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1872,7 +1875,7 @@ do
             Converted["_Notifications"].Size = UDim2.new(0, 260, 1, -20)
             Converted["_Notifications"].ZIndex = 200
             Converted["_Notifications"].Name = "Notifications"
-            Converted["_Notifications"].Parent = Converted["_VNSAKAVNSAKAVNSAKAVNSAKAATLAS"]
+            Converted["_Notifications"].Parent = Converted["_Atlas"]
 
             Converted["_UIListLayout4"].Padding = UDim.new(0, 10)
             Converted["_UIListLayout4"].HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -1886,7 +1889,7 @@ do
             Converted["_Hint"].Visible = false
             Converted["_Hint"].ZIndex = 300
             Converted["_Hint"].Name = "Hint"
-            Converted["_Hint"].Parent = Converted["_VNSAKAVNSAKAVNSAKAVNSAKAATLAS"]
+            Converted["_Hint"].Parent = Converted["_Atlas"]
 
             Converted["_Arrow1"].Image = "http://www.roblox.com/asset/?id=10955007577"
             Converted["_Arrow1"].ImageColor3 = Color3.fromRGB(21.000000648200512, 21.000000648200512, 21.000000648200512)
@@ -2025,7 +2028,7 @@ do
             Converted["_Ignore21"].Name = "Ignore"
             Converted["_Ignore21"].Parent = Converted["_Theme22"]
 
-            return Converted["_VNSAKAVNSAKAVNSAKAVNSAKAATLAS"]
+            return Converted["_Atlas"]
         end
 
         local lib = makeLibrary()
@@ -2150,10 +2153,10 @@ do
                     checkMark.Visible = false
                     text.Text = "Copy Invite"
                     table.insert(_connections,utility:HandleGradientButton(btn,function()
-                        if text.Text == "Copy Invite" then
+                        if text.Text == "Copy Discord" then
                             text.Text = "Copied"
                             checkMark.Visible = true
-                            setclipboard(info.Discord or "No discord invite")
+                            setclipboard(info.Discord or "No Invite")
                             wait(1.5)
                             text.Text = "Copy Invite"
                             checkMark.Visible = false
@@ -2606,7 +2609,6 @@ do
         info.Callback = info.Callback or utility.BlankFunction
 
         local function makeNotif()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
 
             -- Instances:
 
@@ -3089,7 +3091,6 @@ do
         local color = _self.color
 
         local function makeSection()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_Section"] = Instance.new("Frame");
                 ["_Contents"] = Instance.new("Frame");
@@ -3219,12 +3220,12 @@ do
     function Element.CreateToggle(section,info)
         local _self = section._self
         -- Requirements
-        utility:Requirement(type(info)=="table","Info must be a table!")
-        utility:Requirement(info.Name,"Missing name argument")
-        utility:Requirement(info.Flag,"Missing flag argument")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
+        utility:Requirement(info.Name,"Missing Name Argument")
+        utility:Requirement(info.Flag,"Missing Flag")
 
         if _self._usedFlags[info.Flag] then
-            warn("Flag must have unique name!")
+            warn("Flag Must Have An Unique Name!")
             return
         else
             _self._usedFlags[info.Flag] = info.SavingDisabled and "disabled" or true
@@ -3513,15 +3514,15 @@ do
     function Element.CreateSlider(section,info)
         local _self = section._self
         -- Requirements
-        utility:Requirement(type(info)=="table","Info must be a table!")
-        utility:Requirement(info.Name,"Missing name argument")
-        utility:Requirement(info.Flag,"Missing flag argument")
-        utility:Requirement(info.Min,"Missing min argument")
-        utility:Requirement(info.Max,"Missing max argument")
-        utility:Requirement(info.Max>info.Min,"Max must be larger than min")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
+        utility:Requirement(info.Name,"Missing Name Argument")
+        utility:Requirement(info.Flag,"Missing Flag")
+        utility:Requirement(info.Min,"Missing Min Argument")
+        utility:Requirement(info.Max,"Missing Max Argument")
+        utility:Requirement(info.Max>info.Min,"Max Must Be Larger Then Min")
 
         if _self._usedFlags[info.Flag] then
-            warn("Flag must have unique name!")
+            warn("Flag Must Have An Unique Name!")
             return
         else
             _self._usedFlags[info.Flag] = true
@@ -3855,8 +3856,8 @@ do
         if info.Flag then
             warn("SliderToggle does not have a 'Flag' argument, as it instead has two flags titled 'SliderFlag' and 'ToggleFlag'. Please fix your script.")
         end
-        utility:Requirement(type(info)=="table","Info must be a table!")
-        utility:Requirement(info.Name,"Missing name argument")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
+        utility:Requirement(info.Name,"Missing Name Argument")
         utility:Requirement(info.SliderFlag,"Missing slider flag argument")
         utility:Requirement(info.ToggleFlag,"Missing toggle flag argument")
         utility:Requirement(info.Min,"Missing min argument")
@@ -4324,7 +4325,7 @@ do
     function Element.CreateParagraph(section,info)
         local _self = section._self
         -- Requirements
-        utility:Requirement(type(info)=="table","Info must be a table!")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
         utility:Requirement(info.Content,"Missing content argument")
 
         section.elementNum = section.elementNum+1
@@ -4440,8 +4441,8 @@ do
     function Element.CreateButton(section,info)
         local _self = section._self
         -- Requirements
-        utility:Requirement(type(info)=="table","Info must be a table!")
-        utility:Requirement(info.Name,"Missing name argument")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
+        utility:Requirement(info.Name,"Missing Name Argument")
 
         info.Callback = info.Callback or utility.BlankFunction
 
@@ -4691,13 +4692,13 @@ do
     function Element.CreateTextBox(section,info)
         local _self = section._self
         -- Requirements
-        utility:Requirement(type(info)=="table","Info must be a table!")
-        utility:Requirement(info.Name,"Missing name argument")
-        utility:Requirement(info.Flag,"Missing flag argument")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
+        utility:Requirement(info.Name,"Missing Name Argument")
+        utility:Requirement(info.Flag,"Missing Flag Argument")
 
         info.Callback = info.Callback or utility.BlankFunction
         info.TabComplete = info.TabComplete or utility.BlankFunction
-        info.PlaceholderText = info.PlaceholderText or "No Text"
+        info.PlaceholderText = info.PlaceholderText or "Nothing"
         info.DefaultText = info.DefaultText or ""
 
         if info.ClearTextOnFocus==nil then
@@ -4705,7 +4706,7 @@ do
         end
 
         if _self._usedFlags[info.Flag] then
-            warn("Flag must have unique name!")
+            warn("Flag Must Have An Unique Name!")
             return
         else
             _self._usedFlags[info.Flag] = true
@@ -4726,7 +4727,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_5_Textbox"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -4953,7 +4953,7 @@ do
                     info.Callback(textbox.Text,enterPressed)
                 end)
                 if not s then
-                    warn("Callback error: "..r)
+                    warn("Callback Error: "..r)
                 end
                 _self.Flags[info.Flag] = textbox.Text
             end)
@@ -4965,10 +4965,10 @@ do
                         result = info.TabComplete(textbox.Text)
                     end)
                     if not s then
-                        warn("Error in tab completion function: "..r)
+                        warn("Error In Tab Completion : "..r)
                         error()
                     elseif (type(r)~="string" and r~=nil) then
-                        warn("TabComplete function must return a string")
+                        warn("TabComplete Must Return A String.")
                         error()
                     end
                     local final = string.gsub(string.gsub(string.gsub(result or textbox.Text, "^%s+", ""), "%s+$", ""),"\t","")
@@ -4996,8 +4996,8 @@ do
     function Element.CreateInteractable(section,info)
         local _self = section._self
         -- Requirements
-        utility:Requirement(type(info)=="table","Info must be a table!")
-        utility:Requirement(info.Name,"Missing name argument")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
+        utility:Requirement(info.Name,"Missing Name")
 
         info.Callback = info.Callback or utility.BlankFunction
 
@@ -5006,7 +5006,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_6_Interactable"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -5286,7 +5285,7 @@ do
                     fr.Title.Visible = false
                     local s,r = pcall(info.Callback)
                     if not s then
-                        warn("Interactable Callback Error: "..r)
+                        warn("Interactable Callback Error : "..r)
                     end
                     fr.Loading.Visible = false
                     fr.Title.Visible = true
@@ -5311,9 +5310,9 @@ do
     function Element.CreateKeybind(section,info)
         local _self = section._self
         -- Requirements
-        utility:Requirement(type(info)=="table","Info must be a table!")
-        utility:Requirement(info.Name,"Missing name argument")
-        utility:Requirement(info.Flag,"Missing flag argument")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
+        utility:Requirement(info.Name,"Missing Name")
+        utility:Requirement(info.Flag,"Missing Flag")
 
         info.Callback = info.Callback or utility.BlankFunction
         info.KeyPressed = info.KeyPressed or utility.BlankFunction
@@ -5324,7 +5323,7 @@ do
         info.Default = info.Default or Enum.KeyCode.Unknown
 
         if _self._usedFlags[info.Flag] then
-            warn("Flag must have unique name!")
+            warn("Flag Must Have A Unique Name!")
             return
         else
             _self._usedFlags[info.Flag] = true
@@ -5345,7 +5344,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_7_Keybind"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -5623,8 +5621,8 @@ do
     function Element.CreateDropdown(section,info)
         local _self = section._self
         -- Requirements
-        utility:Requirement(type(info)=="table","Info must be a table!")
-        utility:Requirement(info.Name,"Missing name argument")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
+        utility:Requirement(info.Name,"Missing Name")
 
         info.Callback = info.Callback or utility.BlankFunction
         info.Options = info.Options or {}
@@ -5639,7 +5637,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_8_Dropdown"] = Instance.new("Frame");
                 ["_Main"] = Instance.new("Frame");
@@ -5678,7 +5675,6 @@ do
                 ["_Element"] = Instance.new("StringValue");
             }
 
-            --Properties
 
             Converted["_8_Dropdown"].AutomaticSize = Enum.AutomaticSize.Y
             Converted["_8_Dropdown"].BackgroundColor3 = Color3.fromRGB(28.000000230968, 28.000000230968, 28.000000230968)
@@ -5870,7 +5866,7 @@ do
 
         local element = createElement()
 
-        local isOpen,closeDropdown do -- dropdown
+        local isOpen,closeDropdown do -- Dropdowns
             local open = false
             local tween1 = nil
             local tween2
@@ -5942,7 +5938,6 @@ do
 
         local scroll = element.Secondary.ScrollingFrame
         local function makeButton(func)
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_1_button"] = Instance.new("Frame");
                 ["_UICorner"] = Instance.new("UICorner");
@@ -5972,8 +5967,6 @@ do
                 ["_Category4"] = Instance.new("StringValue");
                 ["_Ignore4"] = Instance.new("BoolValue");
             }
-
-            --Properties
 
             Converted["_1_button"].BackgroundColor3 = Color3.fromRGB(18.000000827014446, 18.000000827014446, 18.000000827014446)
             Converted["_1_button"].Size = UDim2.new(0.970000029, 0, 0, 35)
@@ -6171,7 +6164,7 @@ do
         end
         local function update(tbl)
             local children = getFrameChildren()
-            local existing = #children -- ui layout
+            local existing = #children -- layout
             local deficit = (#tbl)-existing
 
             if deficit>0 then
@@ -6198,7 +6191,7 @@ do
             for i,v in ipairs(tbl) do
                 local obj = children[i]
                 obj.Name = string.rep("!",i)
-                obj.Title.Warning.Visible = false -- disabled for now because I don't remember why I included this in the first place
+                obj.Title.Warning.Visible = false -- disabled 
                 obj.Title.Main.Title.Text = v or ""
             end
         end
@@ -6212,9 +6205,9 @@ do
     function Element.CreateColorPicker(section,info)
         local _self = section._self
         -- Requirements
-        utility:Requirement(type(info)=="table","Info must be a table!")
-        utility:Requirement(info.Name,"Missing name argument")
-        utility:Requirement(info.Flag,"Missing flag argument")
+        utility:Requirement(type(info)=="table","Information Must Be An Table!")
+        utility:Requirement(info.Name,"Missing Name")
+        utility:Requirement(info.Flag,"Missing Flag")
 
         info.Callback = info.Callback or utility.BlankFunction
         _self.Flags[info.Flag] = _self.Flags[info.Flag] or info.Default or Color3.new(1,1,1)
@@ -6232,7 +6225,6 @@ do
         local elementNum = section.elementNum
 
         local function createElement()
-            -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
                 ["_9_ColorPicker"] = Instance.new("Frame");
                 ["_Main"] = Instance.new("Frame");
