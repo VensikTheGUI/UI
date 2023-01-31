@@ -8,13 +8,11 @@
 â•šâ•â•â–‘â–‘â•šâ•â•â–‘â–‘â–‘â•šâ•â•â–‘â–‘â–‘â•šâ•â•â•â•â•â•â•â•šâ•â•â–‘â–‘â•šâ•â•â•šâ•â•â•â•â•â•â–‘
 
 Made by RoadToGlory#9879
-Join: https://discord.gg/xu5dDS3Pb9
-
+Edited by gunna#6666
 ]]
 
 local VERSION = "1.2"
 
--- LURAPH (if i left it enabled)
 if not LPH_OBFUSCATED then
     local function r(...)
         return ...
