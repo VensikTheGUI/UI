@@ -812,12 +812,12 @@ do
             Converted["_UICorner5"].CornerRadius = UDim.new(0, 5)
             Converted["_UICorner5"].Parent = Converted["_Button"]
 
-            Converted["_UIStroke3"].Color = Color3.fromRGB(12.000000234693289, 129.00000751018524, 255)
+            Converted["_UIStroke3"].Color = Color3.fromRGB(255, 255, 255)
             Converted["_UIStroke3"].Parent = Converted["_Button"]
 
             Converted["_UIGradient3"].Color = ColorSequence.new{
-                ColorSequenceKeypoint.new(0, Color3.fromRGB(12.000000234693289, 129.00000751018524, 255)),
-                ColorSequenceKeypoint.new(1, Color3.fromRGB(21.000000648200512, 72.00000330805779, 116.00000068545341))
+                ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
             }
             Converted["_UIGradient3"].Rotation = -90
             Converted["_UIGradient3"].Parent = Converted["_Button"]
