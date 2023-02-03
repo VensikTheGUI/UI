@@ -1,15 +1,15 @@
 local Atlas = loadstring(game:HttpGet("https://raw.githubusercontent.com/VenusTheGUIRemastered/UI/main/UILibrary"))()
 
 local test = Atlas.new({
-    Name = "TXREAM N GUNNA";
-    ConfigFolder = "fsdfsdfsdf";
-    Credit = "Made by gunna#6666!";
-    Color = Color3.fromRGB(255, 255, 255);
-    FullName = "Document";
-    UseLoader = true;
-    Bind = "V";
+    Name = "ATLAS UI LIBRARY"; -- SCRIPTNAME
+    ConfigFolder = "CONFIGFOLDER"; -- If you want to Save Configs.
+    Credit = "CREDITS HERE!"; -- (i) at the top of the UI.
+    Color = Color3.fromRGB(255, 255, 255); -- UI MainColor
+    FullName = "Document"; -- Loader Name
+    UseLoader = true; -- If you want to use loader.
+    Bind = "V"; -- Open n Close KEYBIND
     CheckKey = function(e) -- this can be nil to disable key checking
-        return e == "gunna"
+        return e == "KEYHERE"
     end;
     Discord = "https://discord.gg/URDISCORDHERE"
 })
@@ -30,7 +30,7 @@ s1:CreateToggle({ -- IMPORTANT: This function does not return anything, please m
         print("Toggle:",newValue)
     end;
     -- Scroll to the bottom of the page to read more about the following two:
-    Warning = "warning here"; -- optional: this argument is used in all elements (except for Body) and will indicate text that will appear when the player hovers over the warning icon
+    Warning = "WARNING HERE"; -- optional: this argument is used in all elements (except for Body) and will indicate text that will appear when the player hovers over the warning icon
     WarningIcon = nil; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
 })
 
@@ -52,15 +52,15 @@ s2:CreateSliderToggle({ -- IMPORTANT: This function does not return anything, pl
     end;
     SavingDisabled = true; -- this is how you would disable saving on a single element, just add this argument in
     -- Scroll to the bottom of the page to read more about the following two:
-    Warning = "gunna is sexy"; -- optional: this argument is used in all elements (except for Paragraph) and will indicate text that will appear when the player hovers over the warning icon
+    Warning = "HELLO"; -- optional: this argument is used in all elements (except for Paragraph) and will indicate text that will appear when the player hovers over the warning icon
     WarningIcon = nil; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
 })
 s4:CreateButton({
     Name = "My Button"; -- required: name of element
     Callback = function() -- required: function to be called when button is pressed
         test:Notify({
-            Title = "My Notif";
-            Content = "Hello there."
+            Title = "SCRIPT NOTIFICATION";
+            Content = "Button pressed!"
         })
         print("Button pressed!")
     end
