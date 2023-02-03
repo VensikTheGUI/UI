@@ -72,17 +72,17 @@ s1:CreateTextBox({
     Callback = function(inputtedText,enterPressed) -- function to be called when the textbox's focus is lost
         print("TextBox:",inputtedText,enterPressed)
     end;
-    DefaultText = "DefaultText"; -- required: text that will be in the textbox when there is no configurations saved or config saving is disabled
-    PlaceholderText = "No Text"; -- optional: placeholder text that will show when no text is written
+    DefaultText = "Type - ATLAS"; -- required: text that will be in the textbox when there is no configurations saved or config saving is disabled
+    PlaceholderText = "TextHere"; -- optional: placeholder text that will show when no text is written
     TabComplete = function(inputtedText) -- optional: function to be called when the player presses the tab button while the textbox is in focus. The replaced text will be whatever this function returns, if it returns nil, the text will not change
-        if inputtedText=="Road" then
-            return "RoadToGlory"
+        if inputtedText=="Atlas" then
+            return "AtlasUILibrary"
         end
     end;
     ClearTextOnFocus = true; -- optional: whether to clear text when the textbox is focused, default is false
     -- Scroll to the bottom of the page to read more about the following two:
     Warning = "This has a warning"; -- optional: this argument is used in all elements (except for Body) and will indicate text that will appear when the player hovers over the warning icon
-    WarningIcon = 12345; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
+    WarningIcon = nil; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
 })
 
 s2:CreateInteractable({
@@ -93,9 +93,8 @@ s2:CreateInteractable({
     end;
     -- Scroll to the bottom of the page to read more about the following two:
     Warning = "This has a warning"; -- optional: this argument is used in all elements (except for Body) and will indicate text that will appear when the player hovers over the warning icon
-    WarningIcon = 12345; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
+    WarningIcon = nil
 })
-
 s3:CreateKeybind({
     Name = "Keybind"; -- required: name of element
     Flag = "Keybind"; -- required: unique flag name to use for element
@@ -108,7 +107,7 @@ s3:CreateKeybind({
     end;
     -- Scroll to the bottom of the page to read more about the following two:
     Warning = "This has a warning"; -- optional: this argument is used in all elements (except for Body) and will indicate text that will appear when the player hovers over the warning icon
-    WarningIcon = 12345; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
+    WarningIcon = nil; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
 })
 
 local MyDropdown = s4:CreateDropdown({
@@ -121,7 +120,7 @@ local MyDropdown = s4:CreateDropdown({
     DefaultItemSelected = "Deez"; -- optional: default item selected, will not run the callback and does not need to be from options table. This will be ignored if ItemSelecting is not true.
     -- Scroll to the bottom of the page to read more about the following two:
     Warning = "This has a warning"; -- optional: this argument is used in all elements (except for Body) and will indicate text that will appear when the player hovers over the warning icon
-    WarningIcon = 12345; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
+    WarningIcon = nil; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
 })
 
 -- update the dropdown
@@ -144,7 +143,7 @@ s1:CreateColorPicker({
     SavingDisabled = false;
     -- Scroll to the bottom of the page to read more about the following two:
     Warning = "This has a warning"; -- optional: this argument is used in all elements (except for Body) and will indicate text that will appear when the player hovers over the warning icon
-    WarningIcon = 12345; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
+    WarningIcon = nil; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
 })
 
 local MyDropdown2 = s2:CreateDropdown({
@@ -172,5 +171,5 @@ s3:CreateSlider({ -- IMPORTANT: This function does not return anything, please m
     end;
     -- Scroll to the bottom of the page to read more about the following two:
     Warning = "This has a warning"; -- optional: this argument is used in all elements (except for Body) and will indicate text that will appear when the player hovers over the warning icon
-    WarningIcon = 12345; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
+    WarningIcon = nil; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
 })
