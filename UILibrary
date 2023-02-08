@@ -1,7 +1,7 @@
---[[
+ --[[
 RoadToGlory#9999
 ATLAS LIBRARY
-Edited by gunna#6666
+Edited by gunna#5096
 
 
 ]]
@@ -141,7 +141,7 @@ do
 
             --Properties
 
-            Converted["__buttonEffect"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["__buttonEffect"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["__buttonEffect"].BackgroundTransparency = 1
             Converted["__buttonEffect"].ClipsDescendants = true
             Converted["__buttonEffect"].Size = UDim2.new(1, 0, 1, 0)
@@ -153,7 +153,7 @@ do
             Converted["_ImageLabel"].ImageTransparency = 0.8999999761581421
             Converted["_ImageLabel"].ScaleType = Enum.ScaleType.Crop
             Converted["_ImageLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel"].BackgroundTransparency = 1
             Converted["_ImageLabel"].Position = UDim2.new(0, 0, 0, 0)
             Converted["_ImageLabel"].Size = UDim2.new(0, 0, 1, 0)
@@ -230,7 +230,7 @@ do
         Converted["_Button"].TextColor3 = Color3.fromRGB(0, 0, 0)
         Converted["_Button"].TextSize = 14
         Converted["_Button"].AnchorPoint = Vector2.new(0.5, 0.5)
-        Converted["_Button"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Converted["_Button"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
         Converted["_Button"].BackgroundTransparency = 1
         Converted["_Button"].Position = UDim2.new(0.5, 0, 0.5, 0)
         Converted["_Button"].Size = UDim2.new(1, 0, 1, 0)
@@ -472,7 +472,7 @@ do
             Converted["_GameThumbnail"].Image = "https://www.roblox.com/asset-thumbnail/image?assetId=5670218884&width=768&height=432&format=png"
             Converted["_GameThumbnail"].ImageTransparency = 0.8
             Converted["_GameThumbnail"].ScaleType = Enum.ScaleType.Crop
-            Converted["_GameThumbnail"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_GameThumbnail"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_GameThumbnail"].BackgroundTransparency = 1
             Converted["_GameThumbnail"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_GameThumbnail"].Name = "GameThumbnail"
@@ -487,14 +487,14 @@ do
             }
             Converted["_UIGradient"].Parent = Converted["_GameThumbnail"]
 
-            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].ClipsDescendants = true
             Converted["_Main"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Main"].Name = "Main"
             Converted["_Main"].Parent = Converted["_Loader"]
 
-            Converted["_No"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_No"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_No"].Position = UDim2.new(0, 154, 0, 92)
             Converted["_No"].Size = UDim2.new(0, 85, 0, 24)
             Converted["_No"].Name = "No"
@@ -518,14 +518,14 @@ do
             Converted["_TextLabel"].TextColor3 = Color3.fromRGB(225.00001698732376, 225.00001698732376, 225.00001698732376)
             Converted["_TextLabel"].TextSize = 14
             Converted["_TextLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_TextLabel"].BackgroundTransparency = 1
             Converted["_TextLabel"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_TextLabel"].Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
             Converted["_TextLabel"].Parent = Converted["_No"]
 
             Converted["_Yes"].AnchorPoint = Vector2.new(1, 0)
-            Converted["_Yes"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Yes"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Yes"].Position = UDim2.new(0, 125, 0, 92)
             Converted["_Yes"].Size = UDim2.new(0, 85, 0, 24)
             Converted["_Yes"].Name = "Yes"
@@ -542,7 +542,7 @@ do
             Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(225.00001698732376, 225.00001698732376, 225.00001698732376)
             Converted["_TextLabel1"].TextSize = 14
             Converted["_TextLabel1"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_TextLabel1"].BackgroundTransparency = 1
             Converted["_TextLabel1"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_TextLabel1"].Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
@@ -563,7 +563,7 @@ do
             Converted["_GameName"].TextWrapped = true
             Converted["_GameName"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_GameName"].TextYAlignment = Enum.TextYAlignment.Top
-            Converted["_GameName"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_GameName"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_GameName"].BackgroundTransparency = 1
             Converted["_GameName"].Position = UDim2.new(0, 12, 0, 44)
             Converted["_GameName"].Size = UDim2.new(0, 257, 0, 13)
@@ -589,7 +589,7 @@ do
             Converted["_Message"].TextWrapped = true
             Converted["_Message"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Message"].TextYAlignment = Enum.TextYAlignment.Top
-            Converted["_Message"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Message"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Message"].BackgroundTransparency = 1
             Converted["_Message"].Position = UDim2.new(0, 12, 0, 68)
             Converted["_Message"].Size = UDim2.new(0, 257, 0, 13)
@@ -614,7 +614,7 @@ do
             Converted["_Title"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Title"].TextWrapped = true
             Converted["_Title"].TextXAlignment = Enum.TextXAlignment.Left
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(0, 44, 0, 8)
             Converted["_Title"].Size = UDim2.new(0, 224, 0, 31)
@@ -634,14 +634,14 @@ do
 
             Converted["_ImageLabel"].Image = "rbxassetid://11117108054"
             Converted["_ImageLabel"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel"].BackgroundTransparency = 1
             Converted["_ImageLabel"].Position = UDim2.new(0, 12, 0, 23)
             Converted["_ImageLabel"].Size = UDim2.new(0, 24, 0, 24)
             Converted["_ImageLabel"].Parent = Converted["_Main"]
 
             Converted["_Shadow"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Shadow"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Shadow"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Shadow"].BackgroundTransparency = 1
             Converted["_Shadow"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_Shadow"].Size = UDim2.new(1, 55, 1, 55)
@@ -673,7 +673,7 @@ do
             Converted["_Ignore4"].Name = "Ignore"
             Converted["_Ignore4"].Parent = Converted["_Theme4"]
 
-            Converted["_Key"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Key"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Key"].BackgroundTransparency = 1
             Converted["_Key"].ClipsDescendants = true
             Converted["_Key"].Size = UDim2.new(1, 0, 1, 0)
@@ -700,7 +700,7 @@ do
             Converted["_TextBox"].TextSize = 14
             Converted["_TextBox"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_TextBox"].TextXAlignment = Enum.TextXAlignment.Left
-            Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_TextBox"].BackgroundTransparency = 1
             Converted["_TextBox"].Position = UDim2.new(0.0311284047, 0, 0, 0)
             Converted["_TextBox"].Size = UDim2.new(0.968871593, -24, 1, 0)
@@ -708,7 +708,7 @@ do
 
             Converted["_ImageLabel2"].Image = "rbxassetid://11116814746"
             Converted["_ImageLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel2"].BackgroundTransparency = 1
             Converted["_ImageLabel2"].Position = UDim2.new(1, -12, 0.5, 0)
             Converted["_ImageLabel2"].Size = UDim2.new(0, 21, 0, 21)
@@ -723,7 +723,7 @@ do
             Converted["_Message1"].TextWrapped = true
             Converted["_Message1"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Message1"].TextYAlignment = Enum.TextYAlignment.Top
-            Converted["_Message1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Message1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Message1"].BackgroundTransparency = 1
             Converted["_Message1"].Position = UDim2.new(0, 12, 0, 40)
             Converted["_Message1"].Size = UDim2.new(0, 257, 0, 35)
@@ -748,7 +748,7 @@ do
             Converted["_Title1"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Title1"].TextWrapped = true
             Converted["_Title1"].TextXAlignment = Enum.TextXAlignment.Left
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Position = UDim2.new(0, 12, 0, 8)
             Converted["_Title1"].Size = UDim2.new(0, 102, 0, 31)
@@ -774,7 +774,7 @@ do
             Converted["_Directions"].TextWrapped = true
             Converted["_Directions"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Directions"].TextYAlignment = Enum.TextYAlignment.Top
-            Converted["_Directions"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Directions"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Directions"].BackgroundTransparency = 1
             Converted["_Directions"].Position = UDim2.new(0, 12, 0, 75)
             Converted["_Directions"].Size = UDim2.new(0, 257, 0, 15)
@@ -793,7 +793,7 @@ do
             Converted["_Ignore7"].Parent = Converted["_Theme7"]
 
             Converted["_Interact"].AnchorPoint = Vector2.new(1, 0)
-            Converted["_Interact"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Interact"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Interact"].BackgroundTransparency = 1
             Converted["_Interact"].Position = UDim2.new(0, 268, 0, 12)
             Converted["_Interact"].Size = UDim2.new(0, 147, 0, 21)
@@ -802,7 +802,7 @@ do
 
             Converted["_Button"].AnchorPoint = Vector2.new(1, 0)
             Converted["_Button"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Button"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Button"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Button"].ClipsDescendants = true
             Converted["_Button"].Position = UDim2.new(1, 0, 0, 0)
             Converted["_Button"].Size = UDim2.new(0, 1, 1, 0)
@@ -828,7 +828,7 @@ do
             Converted["_TextLabel2"].TextSize = 13
             Converted["_TextLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
             Converted["_TextLabel2"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_TextLabel2"].BackgroundTransparency = 1
             Converted["_TextLabel2"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_TextLabel2"].Size = UDim2.new(0, 1, 0.5, 0)
@@ -843,23 +843,23 @@ do
             Converted["_UIListLayout"].VerticalAlignment = Enum.VerticalAlignment.Center
             Converted["_UIListLayout"].Parent = Converted["_Button"]
 
-            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding"].BackgroundTransparency = 1
             Converted["_0_padding"].Name = "0_padding"
             Converted["_0_padding"].Parent = Converted["_Button"]
 
-            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding"].BackgroundTransparency = 1
             Converted["_padding"].Name = "padding"
             Converted["_padding"].Parent = Converted["_Button"]
 
             Converted["_ImageLabel3"].Image = "http://www.roblox.com/asset/?id=10954923256"
-            Converted["_ImageLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel3"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel3"].BackgroundTransparency = 1
             Converted["_ImageLabel3"].Size = UDim2.new(0, 18, 0, 18)
             Converted["_ImageLabel3"].Parent = Converted["_Button"]
 
-            Converted["_Profile"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Profile"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Profile"].BackgroundTransparency = 1
             Converted["_Profile"].ClipsDescendants = true
             Converted["_Profile"].Size = UDim2.new(1, 0, 1, 0)
@@ -874,7 +874,7 @@ do
             Converted["_Title2"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Title2"].TextWrapped = true
             Converted["_Title2"].TextXAlignment = Enum.TextXAlignment.Left
-            Converted["_Title2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title2"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title2"].BackgroundTransparency = 1
             Converted["_Title2"].Position = UDim2.new(0, 12, 0, 8)
             Converted["_Title2"].Size = UDim2.new(0, 224, 0, 31)
@@ -926,7 +926,7 @@ do
 
             Converted["_Thumbnail"].Image = "rbxthumb://type=AvatarHeadShot&id=2755663001&w=420&h=420"
             Converted["_Thumbnail"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Thumbnail"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Thumbnail"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Thumbnail"].BackgroundTransparency = 0.75
             Converted["_Thumbnail"].Position = UDim2.new(0, 7, 0.5, 0)
             Converted["_Thumbnail"].Size = UDim2.new(0, 57, 0, 57)
@@ -937,7 +937,7 @@ do
             Converted["_UICorner8"].Parent = Converted["_Thumbnail"]
 
             Converted["_PlayerName"].AnchorPoint = Vector2.new(0, 1)
-            Converted["_PlayerName"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_PlayerName"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_PlayerName"].BackgroundTransparency = 1
             Converted["_PlayerName"].Position = UDim2.new(0.298000008, 0, 0.550000012, 3)
             Converted["_PlayerName"].Size = UDim2.new(0, 159, 0, 30)
@@ -949,7 +949,7 @@ do
             Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_TextLabel3"].TextSize = 16
             Converted["_TextLabel3"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_TextLabel3"].BackgroundTransparency = 1
             Converted["_TextLabel3"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_TextLabel3"].Parent = Converted["_PlayerName"]
@@ -960,12 +960,12 @@ do
             Converted["_UIListLayout1"].Parent = Converted["_PlayerName"]
 
             Converted["_ImageLabel4"].Image = "http://www.roblox.com/asset/?id=11117540300"
-            Converted["_ImageLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel4"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel4"].BackgroundTransparency = 1
             Converted["_ImageLabel4"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_ImageLabel4"].Parent = Converted["_PlayerName"]
 
-            Converted["_Rank"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Rank"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Rank"].BackgroundTransparency = 1
             Converted["_Rank"].Position = UDim2.new(0.298000008, 0, 0.524999976, 3)
             Converted["_Rank"].Size = UDim2.new(0, 159, 0, 30)
@@ -978,7 +978,7 @@ do
             Converted["_TextLabel4"].TextSize = 13
             Converted["_TextLabel4"].TextYAlignment = Enum.TextYAlignment.Top
             Converted["_TextLabel4"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_TextLabel4"].BackgroundTransparency = 1
             Converted["_TextLabel4"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_TextLabel4"].Parent = Converted["_Rank"]
@@ -991,7 +991,7 @@ do
             Converted["_Close"].Image = "http://www.roblox.com/asset/?id=10259890025"
             Converted["_Close"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Close"].AnchorPoint = Vector2.new(1, 0)
-            Converted["_Close"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Close"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Close"].BackgroundTransparency = 1
             Converted["_Close"].Position = UDim2.new(0, 273, 0, 7)
             Converted["_Close"].Size = UDim2.new(0, 23, 0, 23)
@@ -1209,14 +1209,14 @@ do
             Converted["_Main"].Name = "Main"
             Converted["_Main"].Parent = Converted["_VNS"]
 
-            Converted["_Contents"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Contents"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Contents"].BackgroundTransparency = 1
             Converted["_Contents"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Contents"].ZIndex = 10
             Converted["_Contents"].Name = "Contents"
             Converted["_Contents"].Parent = Converted["_Main"]
 
-            Converted["_Appearance"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Appearance"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Appearance"].BackgroundTransparency = 1
             Converted["_Appearance"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Appearance"].ZIndex = 10
@@ -1297,7 +1297,7 @@ do
             Converted["_Ignore2"].Name = "Ignore"
             Converted["_Ignore2"].Parent = Converted["_Theme2"]
 
-            Converted["_Top1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Top1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Top1"].BackgroundTransparency = 1
             Converted["_Top1"].Size = UDim2.new(1, 0, 0, 32)
             Converted["_Top1"].ZIndex = 10
@@ -1307,7 +1307,7 @@ do
             Converted["_Close"].Image = "http://www.roblox.com/asset/?id=10259890025"
             Converted["_Close"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Close"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Close"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Close"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Close"].BackgroundTransparency = 1
             Converted["_Close"].Position = UDim2.new(1, -5, 0.5, 0)
             Converted["_Close"].Size = UDim2.new(0, 22, 0, 22)
@@ -1332,7 +1332,7 @@ do
             Converted["_Menu"].Image = "http://www.roblox.com/asset/?id=10953432322"
             Converted["_Menu"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Menu"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Menu"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Menu"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Menu"].BackgroundTransparency = 1
             Converted["_Menu"].Position = UDim2.new(0, 9, 0.5, 0)
             Converted["_Menu"].Size = UDim2.new(0, 22, 0, 22)
@@ -1360,7 +1360,7 @@ do
             Converted["_Title"].TextSize = 16
             Converted["_Title"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Title"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_Title"].Size = UDim2.new(1, -150, 0.5, 0)
@@ -1383,7 +1383,7 @@ do
             Converted["_Info"].Image = "http://www.roblox.com/asset/?id=10954638982"
             Converted["_Info"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Info"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Info"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Info"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Info"].BackgroundTransparency = 1
             Converted["_Info"].Position = UDim2.new(0, 60, 0.5, 0)
             Converted["_Info"].Size = UDim2.new(0, 22, 0, 20)
@@ -1394,7 +1394,7 @@ do
             Converted["_UIAspectRatioConstraint2"].DominantAxis = Enum.DominantAxis.Height
             Converted["_UIAspectRatioConstraint2"].Parent = Converted["_Info"]
 
-            Converted["_Credits"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Credits"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Credits"].BackgroundTransparency = 1
             Converted["_Credits"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Credits"].Visible = false
@@ -1419,7 +1419,7 @@ do
             Converted["_UIListLayout"].Parent = Converted["_Main1"]
 
             Converted["_Frame"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Frame"].BackgroundTransparency = 1
             Converted["_Frame"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Frame"].Parent = Converted["_Main1"]
@@ -1430,7 +1430,7 @@ do
             Converted["_B"].TextSize = 12
             Converted["_B"].AnchorPoint = Vector2.new(0.5, 0.5)
             Converted["_B"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_B"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_B"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_B"].BackgroundTransparency = 1
             Converted["_B"].Position = UDim2.new(0.5, 0, 0.699999988, 0)
             Converted["_B"].Size = UDim2.new(0, 1, 0.300000012, 0)
@@ -1443,7 +1443,7 @@ do
             Converted["_A"].TextSize = 12
             Converted["_A"].AnchorPoint = Vector2.new(0.5, 0.5)
             Converted["_A"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_A"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_A"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_A"].BackgroundTransparency = 1
             Converted["_A"].Position = UDim2.new(0.5, 0, 0.300000012, 0)
             Converted["_A"].Size = UDim2.new(0, 1, 0.300000012, 0)
@@ -1454,12 +1454,12 @@ do
             Converted["_UIListLayout1"].VerticalAlignment = Enum.VerticalAlignment.Center
             Converted["_UIListLayout1"].Parent = Converted["_Frame"]
 
-            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding"].BackgroundTransparency = 1
             Converted["_padding"].Name = "padding"
             Converted["_padding"].Parent = Converted["_Main1"]
 
-            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding"].BackgroundTransparency = 1
             Converted["_0_padding"].Name = "0_padding"
             Converted["_0_padding"].Parent = Converted["_Main1"]
@@ -1467,7 +1467,7 @@ do
             Converted["_Arrow"].Image = "http://www.roblox.com/asset/?id=10955007577"
             Converted["_Arrow"].ImageColor3 = Color3.fromRGB(31.000000052154064, 31.000000052154064, 31.000000052154064)
             Converted["_Arrow"].AnchorPoint = Vector2.new(0.5, 0)
-            Converted["_Arrow"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Arrow"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Arrow"].BackgroundTransparency = 1
             Converted["_Arrow"].Position = UDim2.new(0.5, 0, -1, 0)
             Converted["_Arrow"].Rotation = 180
@@ -1489,7 +1489,7 @@ do
             Converted["_Search"].Image = "http://www.roblox.com/asset/?id=10954646243"
             Converted["_Search"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Search"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Search"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Search"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Search"].BackgroundTransparency = 1
             Converted["_Search"].Position = UDim2.new(1, -32, 0.5, 0)
             Converted["_Search"].Size = UDim2.new(0, 22, 0, 21)
@@ -1524,7 +1524,7 @@ do
             Converted["_Icon"].Image = "http://www.roblox.com/asset/?id=10954646243"
             Converted["_Icon"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Icon"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Icon"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Icon"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Icon"].BackgroundTransparency = 1
             Converted["_Icon"].Position = UDim2.new(0, 3, 0.5, 0)
             Converted["_Icon"].Size = UDim2.new(0, 17, 0, 17)
@@ -1550,7 +1550,7 @@ do
             Converted["_TextBox"].TextSize = 13
             Converted["_TextBox"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_TextBox"].AnchorPoint = Vector2.new(0.5, 0)
-            Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_TextBox"].BackgroundTransparency = 1
             Converted["_TextBox"].Position = UDim2.new(0.5, 0, 0, 0)
             Converted["_TextBox"].Size = UDim2.new(1, -34, 1, 0)
@@ -1593,7 +1593,7 @@ do
             Converted["_Drag"].Text = ""
             Converted["_Drag"].TextColor3 = Color3.fromRGB(0, 0, 0)
             Converted["_Drag"].TextSize = 14
-            Converted["_Drag"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Drag"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Drag"].BackgroundTransparency = 1
             Converted["_Drag"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Drag"].ZIndex = 0
@@ -1603,7 +1603,7 @@ do
             Converted["_Theme12"].Image = "http://www.roblox.com/asset/?id=10983705188"
             Converted["_Theme12"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Theme12"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Theme12"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Theme12"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Theme12"].BackgroundTransparency = 1
             Converted["_Theme12"].Position = UDim2.new(1, -59, 0.5, 0)
             Converted["_Theme12"].Size = UDim2.new(0, 22, 0, 21)
@@ -1658,7 +1658,7 @@ do
             Converted["_Close1"].Image = "http://www.roblox.com/asset/?id=10259890025"
             Converted["_Close1"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Close1"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Close1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Close1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Close1"].BackgroundTransparency = 1
             Converted["_Close1"].Position = UDim2.new(0, 5, 0, 16)
             Converted["_Close1"].Size = UDim2.new(0, 22, 0, 22)
@@ -1704,7 +1704,7 @@ do
             Converted["_ScrollingFrame"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
             Converted["_ScrollingFrame"].ScrollBarThickness = 0
             Converted["_ScrollingFrame"].Active = true
-            Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ScrollingFrame"].BackgroundTransparency = 1
             Converted["_ScrollingFrame"].Position = UDim2.new(0, 9, 0, 39)
             Converted["_ScrollingFrame"].Size = UDim2.new(0.88554424, 0, 0.985523105, -40)
@@ -1724,7 +1724,7 @@ do
             Converted["_Ignore16"].Parent = Converted["_Theme17"]
 
             Converted["_Contents1"].AnchorPoint = Vector2.new(1, 1)
-            Converted["_Contents1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Contents1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Contents1"].BackgroundTransparency = 1
             Converted["_Contents1"].Position = UDim2.new(1, 0, 1, 0)
             Converted["_Contents1"].Size = UDim2.new(1, 0, 1, -32)
@@ -1733,7 +1733,7 @@ do
             Converted["_Contents1"].Parent = Converted["_Contents"]
 
             Converted["_Page"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Page"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Page"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Page"].BackgroundTransparency = 1
             Converted["_Page"].Position = UDim2.new(1, -3, 0.5, 0)
             Converted["_Page"].Size = UDim2.new(1, -9, 1, -12)
@@ -1746,7 +1746,7 @@ do
             Converted["_ScrollingFrame1"].ScrollBarImageTransparency = 0.20000000298023224
             Converted["_ScrollingFrame1"].ScrollBarThickness = 5
             Converted["_ScrollingFrame1"].Active = true
-            Converted["_ScrollingFrame1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ScrollingFrame1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ScrollingFrame1"].BackgroundTransparency = 1
             Converted["_ScrollingFrame1"].BorderSizePixel = 0
             Converted["_ScrollingFrame1"].Size = UDim2.new(1, 0, 1, 0)
@@ -1756,13 +1756,13 @@ do
             Converted["_UIListLayout3"].HorizontalAlignment = Enum.HorizontalAlignment.Center
             Converted["_UIListLayout3"].Parent = Converted["_ScrollingFrame1"]
 
-            Converted["_padding1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding1"].BackgroundTransparency = 1
             Converted["_padding1"].Size = UDim2.new(1, 0, 0, 0)
             Converted["_padding1"].Name = "padding"
             Converted["_padding1"].Parent = Converted["_ScrollingFrame1"]
 
-            Converted["_0_padding1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding1"].BackgroundTransparency = 1
             Converted["_0_padding1"].Size = UDim2.new(1, 0, 0, 0)
             Converted["_0_padding1"].Name = "0_padding"
@@ -1780,7 +1780,7 @@ do
             Converted["_Ignore17"].Parent = Converted["_Theme18"]
 
             Converted["_Shadow"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Shadow"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Shadow"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Shadow"].BackgroundTransparency = 1
             Converted["_Shadow"].Position = UDim2.new(0.5, 0, 0.506053269, 0)
             Converted["_Shadow"].Size = UDim2.new(1, 55, 1.01210654, 55)
@@ -1813,7 +1813,7 @@ do
             Converted["_Ignore18"].Parent = Converted["_Theme19"]
 
             Converted["_Resize"].AnchorPoint = Vector2.new(1, 1)
-            Converted["_Resize"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Resize"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Resize"].BackgroundTransparency = 1
             Converted["_Resize"].Position = UDim2.new(1, -4, 1, -4)
             Converted["_Resize"].Size = UDim2.new(0, 10, 0, 10)
@@ -1841,7 +1841,7 @@ do
             Converted["_ResizeArea"].TextColor3 = Color3.fromRGB(0, 0, 0)
             Converted["_ResizeArea"].TextSize = 14
             Converted["_ResizeArea"].AnchorPoint = Vector2.new(1, 1)
-            Converted["_ResizeArea"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ResizeArea"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ResizeArea"].BackgroundTransparency = 1
             Converted["_ResizeArea"].Position = UDim2.new(1, 2, 1, 2)
             Converted["_ResizeArea"].Size = UDim2.new(0, 18, 0, 18)
@@ -1854,12 +1854,12 @@ do
             Converted["_Modal"].TextSize = 14
             Converted["_Modal"].TextTransparency = 1
             Converted["_Modal"].Modal = true
-            Converted["_Modal"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Modal"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Modal"].BackgroundTransparency = 1
             Converted["_Modal"].Name = "Modal"
             Converted["_Modal"].Parent = Converted["_Main"]
 
-            Converted["_Notifications"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Notifications"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Notifications"].BackgroundTransparency = 1
             Converted["_Notifications"].Position = UDim2.new(0, 40, 0, 0)
             Converted["_Notifications"].Size = UDim2.new(0, 260, 1, -20)
@@ -1872,7 +1872,7 @@ do
             Converted["_UIListLayout4"].VerticalAlignment = Enum.VerticalAlignment.Bottom
             Converted["_UIListLayout4"].Parent = Converted["_Notifications"]
 
-            Converted["_Hint"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Hint"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Hint"].BackgroundTransparency = 1
             Converted["_Hint"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_Hint"].Size = UDim2.new(0, 10, 0, 10)
@@ -1884,7 +1884,7 @@ do
             Converted["_Arrow1"].Image = "http://www.roblox.com/asset/?id=10955007577"
             Converted["_Arrow1"].ImageColor3 = Color3.fromRGB(21.000000648200512, 21.000000648200512, 21.000000648200512)
             Converted["_Arrow1"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Arrow1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Arrow1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Arrow1"].BackgroundTransparency = 1
             Converted["_Arrow1"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_Arrow1"].Rotation = 180
@@ -1930,7 +1930,7 @@ do
             Converted["_UIListLayout5"].Parent = Converted["_Main3"]
 
             Converted["_Frame3"].AutomaticSize = Enum.AutomaticSize.XY
-            Converted["_Frame3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Frame3"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Frame3"].BackgroundTransparency = 1
             Converted["_Frame3"].Size = UDim2.new(0, 1, 0, 1)
             Converted["_Frame3"].Parent = Converted["_Main3"]
@@ -1939,13 +1939,13 @@ do
             Converted["_UIListLayout6"].HorizontalAlignment = Enum.HorizontalAlignment.Center
             Converted["_UIListLayout6"].Parent = Converted["_Frame3"]
 
-            Converted["_0_padding2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding2"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding2"].BackgroundTransparency = 1
             Converted["_0_padding2"].Name = "0_padding"
             Converted["_0_padding2"].Parent = Converted["_Frame3"]
 
             Converted["_1_main"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_1_main"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_1_main"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_1_main"].BackgroundTransparency = 1
             Converted["_1_main"].Size = UDim2.new(0, 1, 0, 1)
             Converted["_1_main"].Name = "1_main"
@@ -1957,19 +1957,19 @@ do
             Converted["_Text"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Text"].TextSize = 14
             Converted["_Text"].AutomaticSize = Enum.AutomaticSize.XY
-            Converted["_Text"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Text"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Text"].BackgroundTransparency = 1
             Converted["_Text"].Size = UDim2.new(0, 1, 0, 1)
             Converted["_Text"].SizeConstraint = Enum.SizeConstraint.RelativeYY
             Converted["_Text"].Name = "Text"
             Converted["_Text"].Parent = Converted["_1_main"]
 
-            Converted["_0_padding3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding3"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding3"].BackgroundTransparency = 1
             Converted["_0_padding3"].Name = "0_padding"
             Converted["_0_padding3"].Parent = Converted["_1_main"]
 
-            Converted["_padding2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding2"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding2"].BackgroundTransparency = 1
             Converted["_padding2"].Name = "padding"
             Converted["_padding2"].Parent = Converted["_1_main"]
@@ -1978,17 +1978,17 @@ do
             Converted["_UIListLayout7"].HorizontalAlignment = Enum.HorizontalAlignment.Center
             Converted["_UIListLayout7"].Parent = Converted["_1_main"]
 
-            Converted["_2_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_2_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_2_padding"].BackgroundTransparency = 1
             Converted["_2_padding"].Name = "2_padding"
             Converted["_2_padding"].Parent = Converted["_Frame3"]
 
-            Converted["_padding3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding3"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding3"].BackgroundTransparency = 1
             Converted["_padding3"].Name = "padding"
             Converted["_padding3"].Parent = Converted["_Main3"]
 
-            Converted["_0_padding4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding4"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding4"].BackgroundTransparency = 1
             Converted["_0_padding4"].Name = "0_padding"
             Converted["_0_padding4"].Parent = Converted["_Main3"]
@@ -2655,7 +2655,7 @@ do
             Converted["_Frame"].Parent = Converted["_Notification"]
 
             Converted["_Shadow"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Shadow"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Shadow"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Shadow"].BackgroundTransparency = 1
             Converted["_Shadow"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_Shadow"].Size = UDim2.new(1, 55, 1, 55)
@@ -2690,7 +2690,7 @@ do
             Converted["_No"].Image = "http://www.roblox.com/asset/?id=10259890025"
             Converted["_No"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_No"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_No"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_No"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_No"].BackgroundTransparency = 1
             Converted["_No"].Position = UDim2.new(0.970000029, 0, 0.699999988, 0)
             Converted["_No"].Size = UDim2.new(0, 23, 0, 23)
@@ -2711,7 +2711,7 @@ do
             Converted["_Yes"].Image = "http://www.roblox.com/asset/?id=10954923256"
             Converted["_Yes"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Yes"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Yes"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Yes"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Yes"].BackgroundTransparency = 1
             Converted["_Yes"].Position = UDim2.new(0.970000029, 0, 0.300000012, 0)
             Converted["_Yes"].Size = UDim2.new(0, 23, 0, 23)
@@ -2738,7 +2738,7 @@ do
             Converted["_Body"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Body"].TextYAlignment = Enum.TextYAlignment.Top
             Converted["_Body"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Body"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Body"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Body"].BackgroundTransparency = 1
             Converted["_Body"].Position = UDim2.new(0.0500000007, 0, 0.670000374, 0)
             Converted["_Body"].Size = UDim2.new(0.831538498, 0, 0.449999988, 0)
@@ -2764,7 +2764,7 @@ do
             Converted["_Title"].TextWrapped = true
             Converted["_Title"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(0.0500000007, 0, 0.25, 0)
             Converted["_Title"].Size = UDim2.new(0.831538498, 0, 0.219999999, 0)
@@ -2908,7 +2908,7 @@ do
             Converted["_TextLabel"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_TextLabel"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_TextLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_TextLabel"].BackgroundTransparency = 1
             Converted["_TextLabel"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_TextLabel"].Size = UDim2.new(0.870000005, 0, 1, 0)
@@ -2943,7 +2943,7 @@ do
             Converted["_Button"].Text = ""
             Converted["_Button"].TextColor3 = Color3.fromRGB(0, 0, 0)
             Converted["_Button"].TextSize = 14
-            Converted["_Button"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Button"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Button"].BackgroundTransparency = 1
             Converted["_Button"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Button"].ZIndex = 5
@@ -2969,7 +2969,7 @@ do
             --Properties
 
             Converted["_Page"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Page"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Page"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Page"].BackgroundTransparency = 1
             Converted["_Page"].Position = UDim2.new(1, -3, 0.5, 0)
             Converted["_Page"].Size = UDim2.new(1, -9, 1, -12)
@@ -2981,7 +2981,7 @@ do
             Converted["_ScrollingFrame"].ScrollBarImageTransparency = 0.20000000298023224
             Converted["_ScrollingFrame"].ScrollBarThickness = 5
             Converted["_ScrollingFrame"].Active = true
-            Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ScrollingFrame"].BackgroundTransparency = 1
             Converted["_ScrollingFrame"].BorderSizePixel = 0
             Converted["_ScrollingFrame"].Size = UDim2.new(1, 0, 1, 0)
@@ -2991,13 +2991,13 @@ do
             Converted["_UIListLayout"].HorizontalAlignment = Enum.HorizontalAlignment.Center
             Converted["_UIListLayout"].Parent = Converted["_ScrollingFrame"]
 
-            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding"].BackgroundTransparency = 1
             Converted["_padding"].Size = UDim2.new(1, 0, 0, 0)
             Converted["_padding"].Name = "padding"
             Converted["_padding"].Parent = Converted["_ScrollingFrame"]
 
-            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding"].BackgroundTransparency = 1
             Converted["_0_padding"].Size = UDim2.new(1, 0, 0, 0)
             Converted["_0_padding"].Name = "0_padding"
@@ -3094,13 +3094,13 @@ do
             --Properties
 
             Converted["_Section"].AutomaticSize = Enum.AutomaticSize.Y
-            Converted["_Section"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Section"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Section"].BackgroundTransparency = 1
             Converted["_Section"].Size = UDim2.new(1, 0, 0, 10)
             Converted["_Section"].Name = "Section"
 
             Converted["_Contents"].AutomaticSize = Enum.AutomaticSize.Y
-            Converted["_Contents"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Contents"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Contents"].BackgroundTransparency = 1
             Converted["_Contents"].Position = UDim2.new(0, 13, 0, 20)
             Converted["_Contents"].Size = UDim2.new(0.973999977, -14, 0.875999987, 1)
@@ -3119,7 +3119,7 @@ do
             Converted["_Title"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Title"].TextWrapped = true
             Converted["_Title"].TextXAlignment = Enum.TextXAlignment.Left
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(0, 13, 0, 0)
             Converted["_Title"].Size = UDim2.new(0.949999988, 0, 0, 13)
@@ -3313,7 +3313,7 @@ do
 
             Converted["_ImageLabel"].Image = "http://www.roblox.com/asset/?id=10954923256"
             Converted["_ImageLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel"].BackgroundTransparency = 1
             Converted["_ImageLabel"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_ImageLabel"].Parent = Converted["_Toggle"]
@@ -3352,7 +3352,7 @@ do
             Converted["_Ignore3"].Parent = Converted["_Theme3"]
 
             Converted["_Title"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(0, 9, 0.5, 0)
             Converted["_Title"].Size = UDim2.new(1, -45, 0, 14)
@@ -3360,7 +3360,7 @@ do
             Converted["_Title"].Parent = Converted["_0_Toggle"]
 
             Converted["_Main"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Main"].Name = "Main"
@@ -3374,7 +3374,7 @@ do
             Converted["_Title1"].TextWrapped = true
             Converted["_Title1"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title1"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title1"].Name = "Title"
@@ -3394,7 +3394,7 @@ do
             Converted["_Warning"].Image = "http://www.roblox.com/asset/?id=10969141992"
             Converted["_Warning"].ImageColor3 = Color3.fromRGB(255, 249.0000155568123, 53.000004440546036)
             Converted["_Warning"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Warning"].BackgroundTransparency = 1
             Converted["_Warning"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_Warning"].Visible = false
@@ -3595,7 +3595,7 @@ do
             Converted["_Slider"].ScaleType = Enum.ScaleType.Slice
             Converted["_Slider"].SliceCenter = Rect.new(100, 100, 100, 100)
             Converted["_Slider"].AnchorPoint = Vector2.new(0.5, 1)
-            Converted["_Slider"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Slider"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Slider"].BackgroundTransparency = 1
             Converted["_Slider"].Position = UDim2.new(0.5, 0, 0.774999976, 0)
             Converted["_Slider"].Size = UDim2.new(1, -18, 0, 4)
@@ -3606,7 +3606,7 @@ do
             Converted["_Slider1"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Slider1"].ScaleType = Enum.ScaleType.Slice
             Converted["_Slider1"].SliceCenter = Rect.new(100, 100, 100, 100)
-            Converted["_Slider1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Slider1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Slider1"].BackgroundTransparency = 1
             Converted["_Slider1"].Size = UDim2.new(0.5, 0, 1, 0)
             Converted["_Slider1"].Name = "Slider"
@@ -3642,7 +3642,7 @@ do
             Converted["_Input"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Input"].TextXAlignment = Enum.TextXAlignment.Right
             Converted["_Input"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Input"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Input"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Input"].BackgroundTransparency = 1
             Converted["_Input"].Position = UDim2.new(0.999999881, -9, 0, 17)
             Converted["_Input"].Size = UDim2.new(0.309244812, -45, 0, 14)
@@ -3661,7 +3661,7 @@ do
             Converted["_Ignore2"].Parent = Converted["_Theme2"]
 
             Converted["_Title"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(0, 8, 0, 17)
             Converted["_Title"].Size = UDim2.new(0.787999988, -45, 0, 14)
@@ -3669,7 +3669,7 @@ do
             Converted["_Title"].Parent = Converted["_1_Slider"]
 
             Converted["_Main"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Main"].Name = "Main"
@@ -3683,7 +3683,7 @@ do
             Converted["_Title1"].TextWrapped = true
             Converted["_Title1"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title1"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title1"].Name = "Title"
@@ -3703,7 +3703,7 @@ do
             Converted["_Warning"].Image = "http://www.roblox.com/asset/?id=10969141992"
             Converted["_Warning"].ImageColor3 = Color3.fromRGB(255, 249.0000155568123, 53.000004440546036)
             Converted["_Warning"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Warning"].BackgroundTransparency = 1
             Converted["_Warning"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_Warning"].Visible = false
@@ -3965,7 +3965,7 @@ do
             Converted["_Slider"].ScaleType = Enum.ScaleType.Slice
             Converted["_Slider"].SliceCenter = Rect.new(100, 100, 100, 100)
             Converted["_Slider"].AnchorPoint = Vector2.new(0.5, 1)
-            Converted["_Slider"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Slider"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Slider"].BackgroundTransparency = 1
             Converted["_Slider"].Position = UDim2.new(0.479985327, 0, 0.761503458, 0)
             Converted["_Slider"].Size = UDim2.new(0.959725976, -18, 0, 4)
@@ -3976,7 +3976,7 @@ do
             Converted["_Slider1"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Slider1"].ScaleType = Enum.ScaleType.Slice
             Converted["_Slider1"].SliceCenter = Rect.new(100, 100, 100, 100)
-            Converted["_Slider1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Slider1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Slider1"].BackgroundTransparency = 1
             Converted["_Slider1"].Size = UDim2.new(0.5, 0, 1, 0)
             Converted["_Slider1"].Name = "Slider"
@@ -4012,7 +4012,7 @@ do
             Converted["_Input"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Input"].TextXAlignment = Enum.TextXAlignment.Right
             Converted["_Input"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Input"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Input"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Input"].BackgroundTransparency = 1
             Converted["_Input"].Position = UDim2.new(0.999999881, -9, 0, 17)
             Converted["_Input"].Size = UDim2.new(0.350198835, -45, 0, 14)
@@ -4045,7 +4045,7 @@ do
 
             Converted["_ImageLabel"].Image = "http://www.roblox.com/asset/?id=10954923256"
             Converted["_ImageLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel"].BackgroundTransparency = 1
             Converted["_ImageLabel"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_ImageLabel"].Parent = Converted["_Toggle"]
@@ -4073,7 +4073,7 @@ do
             Converted["_Ignore4"].Parent = Converted["_Theme4"]
 
             Converted["_Title"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(0, 7, 0, 17)
             Converted["_Title"].Size = UDim2.new(0.764999986, -45, 0, 14)
@@ -4081,7 +4081,7 @@ do
             Converted["_Title"].Parent = Converted["_2_SliderToggle"]
 
             Converted["_Main"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Main"].Name = "Main"
@@ -4095,7 +4095,7 @@ do
             Converted["_Title1"].TextWrapped = true
             Converted["_Title1"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title1"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title1"].Name = "Title"
@@ -4115,7 +4115,7 @@ do
             Converted["_Warning"].Image = "http://www.roblox.com/asset/?id=10969141992"
             Converted["_Warning"].ImageColor3 = Color3.fromRGB(255, 249.0000155568123, 53.000004440546036)
             Converted["_Warning"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Warning"].BackgroundTransparency = 1
             Converted["_Warning"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_Warning"].Visible = false
@@ -4352,13 +4352,13 @@ do
             Converted["_UICorner"].CornerRadius = UDim.new(0, 4)
             Converted["_UICorner"].Parent = Converted["_3_Paragraph"]
 
-            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding"].BackgroundTransparency = 1
             Converted["_0_padding"].Size = UDim2.new(1, 0, 0, 1)
             Converted["_0_padding"].Name = "0_padding"
             Converted["_0_padding"].Parent = Converted["_3_Paragraph"]
 
-            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding"].BackgroundTransparency = 1
             Converted["_padding"].Size = UDim2.new(1, 0, 0, 1)
             Converted["_padding"].Name = "padding"
@@ -4373,7 +4373,7 @@ do
             Converted["_Title"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title"].AnchorPoint = Vector2.new(0.5, 0)
             Converted["_Title"].AutomaticSize = Enum.AutomaticSize.Y
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(0.5, 0, 0, 0)
             Converted["_Title"].Size = UDim2.new(1, -18, 0, 1)
@@ -4483,7 +4483,7 @@ do
             Converted["_UICorner"].Parent = Converted["_4_Button"]
 
             Converted["_Image"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Image"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Image"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Image"].BackgroundTransparency = 1
             Converted["_Image"].Position = UDim2.new(1, -18, 0.5, 0)
             Converted["_Image"].Size = UDim2.new(0, 24, 0, 24)
@@ -4496,7 +4496,7 @@ do
             Converted["_ImageLabel"].Image = "http://www.roblox.com/asset/?id=10967996591"
             Converted["_ImageLabel"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_ImageLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel"].BackgroundTransparency = 1
             Converted["_ImageLabel"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_ImageLabel"].Size = UDim2.new(1, 0, 1, 0)
@@ -4514,7 +4514,7 @@ do
             Converted["_Ignore"].Parent = Converted["_Theme"]
 
             Converted["_Title"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(-0, 9, 0.5, 0)
             Converted["_Title"].Size = UDim2.new(1, -45, 0, 14)
@@ -4522,7 +4522,7 @@ do
             Converted["_Title"].Parent = Converted["_4_Button"]
 
             Converted["_Main"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Main"].Name = "Main"
@@ -4536,7 +4536,7 @@ do
             Converted["_Title1"].TextWrapped = true
             Converted["_Title1"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title1"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title1"].Name = "Title"
@@ -4556,7 +4556,7 @@ do
             Converted["_Warning"].Image = "http://www.roblox.com/asset/?id=10969141992"
             Converted["_Warning"].ImageColor3 = Color3.fromRGB(255, 249.0000155568123, 53.000004440546036)
             Converted["_Warning"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Warning"].BackgroundTransparency = 1
             Converted["_Warning"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_Warning"].Visible = false
@@ -4763,7 +4763,7 @@ do
             Converted["_UICorner"].Parent = Converted["_5_Textbox"]
 
             Converted["_Input"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Input"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Input"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Input"].BackgroundTransparency = 1
             Converted["_Input"].Position = UDim2.new(1.00000012, -10, 0.5, 0)
             Converted["_Input"].Size = UDim2.new(0.557544649, 1, 0.649999976, 0)
@@ -4789,7 +4789,7 @@ do
             Converted["_TextBox"].TextWrapped = true
             Converted["_TextBox"].TextXAlignment = Enum.TextXAlignment.Right
             Converted["_TextBox"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_TextBox"].BackgroundTransparency = 1
             Converted["_TextBox"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_TextBox"].Parent = Converted["_Frame"]
@@ -4816,13 +4816,13 @@ do
             Converted["_Ignore1"].Name = "Ignore"
             Converted["_Ignore1"].Parent = Converted["_Theme1"]
 
-            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding"].BackgroundTransparency = 1
             Converted["_0_padding"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_0_padding"].Name = "0_padding"
             Converted["_0_padding"].Parent = Converted["_Frame"]
 
-            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding"].BackgroundTransparency = 1
             Converted["_padding"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_padding"].Name = "padding"
@@ -4844,7 +4844,7 @@ do
             Converted["_Ignore2"].Parent = Converted["_Theme2"]
 
             Converted["_Title"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(-0, 9, 0.5, 0)
             Converted["_Title"].Size = UDim2.new(0.442000002, -45, 0, 14)
@@ -4852,7 +4852,7 @@ do
             Converted["_Title"].Parent = Converted["_5_Textbox"]
 
             Converted["_Main"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Main"].Name = "Main"
@@ -4866,7 +4866,7 @@ do
             Converted["_Title1"].TextWrapped = true
             Converted["_Title1"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title1"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title1"].Name = "Title"
@@ -4886,7 +4886,7 @@ do
             Converted["_Warning"].Image = "http://www.roblox.com/asset/?id=10969141992"
             Converted["_Warning"].ImageColor3 = Color3.fromRGB(255, 249.0000155568123, 53.000004440546036)
             Converted["_Warning"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Warning"].BackgroundTransparency = 1
             Converted["_Warning"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_Warning"].Visible = false
@@ -5045,7 +5045,7 @@ do
             Converted["_UICorner"].Parent = Converted["_6_Interactable"]
 
             Converted["_Interactable"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Interactable"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Interactable"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Interactable"].BackgroundTransparency = 1
             Converted["_Interactable"].ClipsDescendants = true
             Converted["_Interactable"].Position = UDim2.new(1.00000012, -10, 0.5, 0)
@@ -5063,13 +5063,13 @@ do
             Converted["_UICorner1"].CornerRadius = UDim.new(0, 4)
             Converted["_UICorner1"].Parent = Converted["_Frame"]
 
-            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding"].BackgroundTransparency = 1
             Converted["_0_padding"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_0_padding"].Name = "0_padding"
             Converted["_0_padding"].Parent = Converted["_Frame"]
 
-            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding"].BackgroundTransparency = 1
             Converted["_padding"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_padding"].Name = "padding"
@@ -5085,7 +5085,7 @@ do
             Converted["_Title"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Title"].TextSize = 14
             Converted["_Title"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title"].Name = "Title"
@@ -5114,7 +5114,7 @@ do
             Converted["_Ignore1"].Parent = Converted["_Theme1"]
 
             Converted["_Loading"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Loading"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Loading"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Loading"].BackgroundTransparency = 1
             Converted["_Loading"].Size = UDim2.new(0, 17, 0, 17)
             Converted["_Loading"].Visible = false
@@ -5125,7 +5125,7 @@ do
 
             Converted["_Loading1"].Image = "http://www.roblox.com/asset/?id=10262657333"
             Converted["_Loading1"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Loading1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Loading1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Loading1"].BackgroundTransparency = 1
             Converted["_Loading1"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_Loading1"].Size = UDim2.new(1, 0, 1, 0)
@@ -5144,7 +5144,7 @@ do
             Converted["_Ignore2"].Parent = Converted["_Theme2"]
 
             Converted["_Title1"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Position = UDim2.new(-0, 9, 0.5, 0)
             Converted["_Title1"].Size = UDim2.new(0.453000009, -45, 0, 14)
@@ -5152,7 +5152,7 @@ do
             Converted["_Title1"].Parent = Converted["_6_Interactable"]
 
             Converted["_Main"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Main"].Name = "Main"
@@ -5166,7 +5166,7 @@ do
             Converted["_Title2"].TextWrapped = true
             Converted["_Title2"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title2"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title2"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title2"].BackgroundTransparency = 1
             Converted["_Title2"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title2"].Name = "Title"
@@ -5186,7 +5186,7 @@ do
             Converted["_Warning"].Image = "http://www.roblox.com/asset/?id=10969141992"
             Converted["_Warning"].ImageColor3 = Color3.fromRGB(255, 249.0000155568123, 53.000004440546036)
             Converted["_Warning"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Warning"].BackgroundTransparency = 1
             Converted["_Warning"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_Warning"].Visible = false
@@ -5383,7 +5383,7 @@ do
             Converted["_UICorner"].Parent = Converted["_7_Keybind"]
 
             Converted["_Frame"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Frame"].BackgroundTransparency = 1
             Converted["_Frame"].Position = UDim2.new(1.00000012, -10, 0.5, 0)
             Converted["_Frame"].Size = UDim2.new(0.572936594, 1, 0.649999976, 0)
@@ -5399,13 +5399,13 @@ do
             Converted["_UICorner1"].CornerRadius = UDim.new(0, 4)
             Converted["_UICorner1"].Parent = Converted["_Frame1"]
 
-            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_0_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_0_padding"].BackgroundTransparency = 1
             Converted["_0_padding"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_0_padding"].Name = "0_padding"
             Converted["_0_padding"].Parent = Converted["_Frame1"]
 
-            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding"].BackgroundTransparency = 1
             Converted["_padding"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_padding"].Name = "padding"
@@ -5421,7 +5421,7 @@ do
             Converted["_Title"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Title"].TextSize = 14
             Converted["_Title"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title"].Name = "Title"
@@ -5441,7 +5441,7 @@ do
             Converted["_Symbol"].Image = "http://www.roblox.com/asset/?id=10298464250"
             Converted["_Symbol"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Symbol"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Symbol"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Symbol"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Symbol"].BackgroundTransparency = 1
             Converted["_Symbol"].Size = UDim2.new(0, 17, 0, 17)
             Converted["_Symbol"].Name = "Symbol"
@@ -5472,7 +5472,7 @@ do
             Converted["_Ignore2"].Parent = Converted["_Theme2"]
 
             Converted["_Title1"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Position = UDim2.new(-0, 9, 0.5, 0)
             Converted["_Title1"].Size = UDim2.new(0.442000002, -45, 0, 14)
@@ -5480,7 +5480,7 @@ do
             Converted["_Title1"].Parent = Converted["_7_Keybind"]
 
             Converted["_Main"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Main"].Name = "Main"
@@ -5494,7 +5494,7 @@ do
             Converted["_Title2"].TextWrapped = true
             Converted["_Title2"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title2"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title2"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title2"].BackgroundTransparency = 1
             Converted["_Title2"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title2"].Name = "Title"
@@ -5514,7 +5514,7 @@ do
             Converted["_Warning"].Image = "http://www.roblox.com/asset/?id=10969141992"
             Converted["_Warning"].ImageColor3 = Color3.fromRGB(255, 249.0000155568123, 53.000004440546036)
             Converted["_Warning"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Warning"].BackgroundTransparency = 1
             Converted["_Warning"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_Warning"].Visible = false
@@ -5681,7 +5681,7 @@ do
             Converted["_Arrow"].Image = "rbxassetid://10260760054"
             Converted["_Arrow"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_Arrow"].AnchorPoint = Vector2.new(1, 0.5)
-            Converted["_Arrow"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Arrow"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Arrow"].BackgroundTransparency = 1
             Converted["_Arrow"].Position = UDim2.new(1, -9, 0.5, 0)
             Converted["_Arrow"].Size = UDim2.new(0, 21, 0, 21)
@@ -5724,7 +5724,7 @@ do
             Converted["_Ignore1"].Parent = Converted["_Theme1"]
 
             Converted["_Title"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(-0, 9, 0.5, 0)
             Converted["_Title"].Size = UDim2.new(1, -45, 0, 14)
@@ -5732,7 +5732,7 @@ do
             Converted["_Title"].Parent = Converted["_Main"]
 
             Converted["_Main1"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Main1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main1"].BackgroundTransparency = 1
             Converted["_Main1"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Main1"].Name = "Main"
@@ -5746,7 +5746,7 @@ do
             Converted["_Title1"].TextWrapped = true
             Converted["_Title1"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title1"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title1"].Name = "Title"
@@ -5766,7 +5766,7 @@ do
             Converted["_Warning"].Image = "http://www.roblox.com/asset/?id=10969141992"
             Converted["_Warning"].ImageColor3 = Color3.fromRGB(255, 249.0000155568123, 53.000004440546036)
             Converted["_Warning"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Warning"].BackgroundTransparency = 1
             Converted["_Warning"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_Warning"].Visible = false
@@ -5815,7 +5815,7 @@ do
             Converted["_ScrollingFrame"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
             Converted["_ScrollingFrame"].ScrollBarThickness = 0
             Converted["_ScrollingFrame"].Active = true
-            Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ScrollingFrame"].BackgroundTransparency = 1
             Converted["_ScrollingFrame"].Size = UDim2.new(1, 0, 0, 117)
             Converted["_ScrollingFrame"].Parent = Converted["_Secondary"]
@@ -5824,7 +5824,7 @@ do
             Converted["_UIListLayout1"].HorizontalAlignment = Enum.HorizontalAlignment.Center
             Converted["_UIListLayout1"].Parent = Converted["_ScrollingFrame"]
 
-            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_padding"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_padding"].BackgroundTransparency = 1
             Converted["_padding"].Size = UDim2.new(1, 0, 0, 0)
             Converted["_padding"].Name = "padding"
@@ -5966,7 +5966,7 @@ do
             Converted["_UICorner"].Parent = Converted["_1_button"]
 
             Converted["_Image"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Image"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Image"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Image"].BackgroundTransparency = 1
             Converted["_Image"].Position = UDim2.new(1, -18, 0.5, 0)
             Converted["_Image"].Size = UDim2.new(0, 24, 0, 24)
@@ -5979,7 +5979,7 @@ do
             Converted["_ImageLabel"].Image = "http://www.roblox.com/asset/?id=10967996591"
             Converted["_ImageLabel"].ImageColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_ImageLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel"].BackgroundTransparency = 1
             Converted["_ImageLabel"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_ImageLabel"].Size = UDim2.new(1, 0, 1, 0)
@@ -5997,7 +5997,7 @@ do
             Converted["_Ignore"].Parent = Converted["_Theme"]
 
             Converted["_Title"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(-0, 9, 0.5, 0)
             Converted["_Title"].Size = UDim2.new(1, -45, 0, 14)
@@ -6005,7 +6005,7 @@ do
             Converted["_Title"].Parent = Converted["_1_button"]
 
             Converted["_Main"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main"].BackgroundTransparency = 1
             Converted["_Main"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Main"].Name = "Main"
@@ -6019,7 +6019,7 @@ do
             Converted["_Title1"].TextWrapped = true
             Converted["_Title1"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title1"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title1"].Name = "Title"
@@ -6039,7 +6039,7 @@ do
             Converted["_Warning"].Image = "http://www.roblox.com/asset/?id=10969141992"
             Converted["_Warning"].ImageColor3 = Color3.fromRGB(255, 249.0000155568123, 53.000004440546036)
             Converted["_Warning"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Warning"].BackgroundTransparency = 1
             Converted["_Warning"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_Warning"].Visible = false
@@ -6319,7 +6319,7 @@ do
 
             Converted["_ImageLabel"].Image = "rbxassetid://10968541736"
             Converted["_ImageLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel"].BackgroundTransparency = 1
             Converted["_ImageLabel"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_ImageLabel"].Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
@@ -6335,7 +6335,7 @@ do
             Converted["_UIStroke"].Parent = Converted["_CurrentColor"]
 
             Converted["_Title"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title"].BackgroundTransparency = 1
             Converted["_Title"].Position = UDim2.new(-0, 9, 0.5, 0)
             Converted["_Title"].Size = UDim2.new(0.936999977, -45, 0, 14)
@@ -6343,7 +6343,7 @@ do
             Converted["_Title"].Parent = Converted["_Main"]
 
             Converted["_Main1"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Main1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Main1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Main1"].BackgroundTransparency = 1
             Converted["_Main1"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Main1"].Name = "Main"
@@ -6357,7 +6357,7 @@ do
             Converted["_Title1"].TextWrapped = true
             Converted["_Title1"].TextXAlignment = Enum.TextXAlignment.Left
             Converted["_Title1"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Title1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].BackgroundTransparency = 1
             Converted["_Title1"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Title1"].Name = "Title"
@@ -6377,7 +6377,7 @@ do
             Converted["_Warning"].Image = "http://www.roblox.com/asset/?id=10969141992"
             Converted["_Warning"].ImageColor3 = Color3.fromRGB(255, 249.0000155568123, 53.000004440546036)
             Converted["_Warning"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Warning"].BackgroundTransparency = 1
             Converted["_Warning"].Size = UDim2.new(0, 16, 0, 16)
             Converted["_Warning"].Visible = false
@@ -6424,27 +6424,27 @@ do
             Converted["_UICorner3"].CornerRadius = UDim.new(0, 4)
             Converted["_UICorner3"].Parent = Converted["_Secondary"]
 
-            Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Frame"].BackgroundTransparency = 1
             Converted["_Frame"].Size = UDim2.new(1, 0, 0, 118)
             Converted["_Frame"].Parent = Converted["_Secondary"]
 
             Converted["_Frame1"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Frame1"].BackgroundTransparency = 1
             Converted["_Frame1"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_Frame1"].Size = UDim2.new(0.899999976, 0, 0.880999982, 0)
             Converted["_Frame1"].Parent = Converted["_Frame"]
 
             Converted["_Frame2"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Frame2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Frame2"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Frame2"].BackgroundTransparency = 1
             Converted["_Frame2"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_Frame2"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Frame2"].Parent = Converted["_Frame1"]
 
             Converted["_Second"].Active = true
-            Converted["_Second"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Second"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Second"].Size = UDim2.new(0.872727275, 0, 0.980769217, 0)
             Converted["_Second"].Name = "Second"
             Converted["_Second"].Parent = Converted["_Frame2"]
@@ -6453,12 +6453,12 @@ do
             Converted["_UICorner4"].Parent = Converted["_Second"]
 
             Converted["_UIGradient"].Color = ColorSequence.new{
-                ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
-                ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
+                ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0))
             }
             Converted["_UIGradient"].Parent = Converted["_Second"]
 
-            Converted["_Black"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Black"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Black"].BorderSizePixel = 0
             Converted["_Black"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Black"].Name = "Black"
@@ -6479,7 +6479,7 @@ do
             Converted["_UICorner5"].Parent = Converted["_Black"]
 
             Converted["_Frame3"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Frame3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Frame3"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Frame3"].BackgroundTransparency = 1
             Converted["_Frame3"].Position = UDim2.new(1, 0, 0, 0)
             Converted["_Frame3"].Size = UDim2.new(0, 18, 0, 18)
@@ -6487,7 +6487,7 @@ do
 
             Converted["_ImageLabel1"].Image = "rbxassetid://4805639000"
             Converted["_ImageLabel1"].SliceCenter = Rect.new(128, 128, 128, 128)
-            Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel1"].BackgroundTransparency = 1
             Converted["_ImageLabel1"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_ImageLabel1"].Parent = Converted["_Frame3"]
@@ -6496,14 +6496,14 @@ do
             Converted["_Button"].Text = ""
             Converted["_Button"].TextColor3 = Color3.fromRGB(0, 0, 0)
             Converted["_Button"].TextSize = 14
-            Converted["_Button"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Button"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Button"].BackgroundTransparency = 1
             Converted["_Button"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Button"].Name = "Button"
             Converted["_Button"].Parent = Converted["_Second"]
 
             Converted["_Rainbow"].AnchorPoint = Vector2.new(1, 0)
-            Converted["_Rainbow"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Rainbow"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Rainbow"].Position = UDim2.new(1, 0, 0, 0)
             Converted["_Rainbow"].Size = UDim2.new(0.0909090936, 0, 0.961538434, 0)
             Converted["_Rainbow"].Name = "Rainbow"
@@ -6525,7 +6525,7 @@ do
             Converted["_UICorner6"].Parent = Converted["_Rainbow"]
 
             Converted["_Frame4"].AnchorPoint = Vector2.new(0, 0.5)
-            Converted["_Frame4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Frame4"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Frame4"].BackgroundTransparency = 1
             Converted["_Frame4"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Frame4"].Parent = Converted["_Rainbow"]
@@ -6536,7 +6536,7 @@ do
             Converted["_ImageLabel2"].Image = "rbxassetid://4805639000"
             Converted["_ImageLabel2"].SliceCenter = Rect.new(128, 128, 128, 128)
             Converted["_ImageLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_ImageLabel2"].BackgroundTransparency = 1
             Converted["_ImageLabel2"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_ImageLabel2"].Size = UDim2.new(0, 18, 0, 18)
@@ -6548,7 +6548,7 @@ do
             Converted["_Button1"].Text = ""
             Converted["_Button1"].TextColor3 = Color3.fromRGB(0, 0, 0)
             Converted["_Button1"].TextSize = 14
-            Converted["_Button1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Converted["_Button1"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Button1"].BackgroundTransparency = 1
             Converted["_Button1"].Size = UDim2.new(1, 0, 1, 0)
             Converted["_Button1"].Name = "Button"
