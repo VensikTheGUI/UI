@@ -4,11 +4,13 @@ ATLAS LIBRARY
 Edited by gunna#5096
 
 
+Last Update : Changed Whole UI To 255,0,0.
+
 ]]
 
 local VERSION = "2.0"
 
--- LURAPH (if i left it enabled)
+
 if not LPH_OBFUSCATED then
     local function r(...)
         return ...
