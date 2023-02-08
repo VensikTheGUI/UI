@@ -2226,7 +2226,7 @@ do
             profile.Player.Gradient.BackgroundColor3 = info.RankColor
             profile.Player.Rank.TextLabel.Text = info.Rank
 
-            profile.Player.PlayerName.TextLabel.Text = player.Name
+            profile.Player.PlayerName.TextLabel.Text = player.DisplayName
 
             profile.Player.Thumbnail.Image = "rbxthumb://type=AvatarHeadShot&id="..player.UserId.."&w=420&h=420"
 
@@ -2655,7 +2655,7 @@ do
             Converted["_Frame"].Parent = Converted["_Notification"]
 
             Converted["_Shadow"].AnchorPoint = Vector2.new(0.5, 0.5)
-            Converted["_Shadow"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+            Converted["_Shadow"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             Converted["_Shadow"].BackgroundTransparency = 1
             Converted["_Shadow"].Position = UDim2.new(0.5, 0, 0.5, 0)
             Converted["_Shadow"].Size = UDim2.new(1, 55, 1, 55)
@@ -2731,7 +2731,7 @@ do
 
             Converted["_Body"].Font = Enum.Font.Gotham
             Converted["_Body"].Text = "Body"
-            Converted["_Body"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
+            Converted["_Body"].TextColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Body"].TextSize = 13
             Converted["_Body"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Body"].TextWrapped = true
@@ -2758,7 +2758,7 @@ do
 
             Converted["_Title"].Font = Enum.Font.GothamBold
             Converted["_Title"].Text = "Notification"
-            Converted["_Title"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
+            Converted["_Title"].TextColor3 = Color3.fromRGB(255, 0,0)
             Converted["_Title"].TextSize = 15
             Converted["_Title"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Title"].TextWrapped = true
@@ -2896,14 +2896,14 @@ do
 
             --Properties
 
-            Converted["_0_page"].BackgroundColor3 = Color3.fromRGB(28.000000230968, 28.000000230968, 28.000000230968)
+            Converted["_0_page"].BackgroundColor3 = Color3.fromRGB(25.000000230968, 25.000000230968, 25.000000230968)
             Converted["_0_page"].BackgroundTransparency = 1
             Converted["_0_page"].Size = UDim2.new(1, 0, 0, 30)
             Converted["_0_page"].Name = "page"
 
             Converted["_TextLabel"].Font = Enum.Font.GothamMedium
             Converted["_TextLabel"].Text = "Example Page"
-            Converted["_TextLabel"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
+            Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255,0,0)
             Converted["_TextLabel"].TextSize = 14
             Converted["_TextLabel"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_TextLabel"].TextXAlignment = Enum.TextXAlignment.Left
@@ -2977,8 +2977,8 @@ do
 
             Converted["_ScrollingFrame"].AutomaticCanvasSize = Enum.AutomaticSize.Y
             Converted["_ScrollingFrame"].CanvasSize = UDim2.new(0, 0, 1, 0)
-            Converted["_ScrollingFrame"].ScrollBarImageColor3 = Color3.fromRGB(151.00000619888306, 151.00000619888306, 151.00000619888306)
-            Converted["_ScrollingFrame"].ScrollBarImageTransparency = 0.20000000298023224
+            Converted["_ScrollingFrame"].ScrollBarImageColor3 = Color3.fromRGB(255,0,0)
+            Converted["_ScrollingFrame"].ScrollBarImageTransparency = 0.20000000298023254
             Converted["_ScrollingFrame"].ScrollBarThickness = 5
             Converted["_ScrollingFrame"].Active = true
             Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 0, 0)
@@ -3113,7 +3113,7 @@ do
 
             Converted["_Title"].Font = Enum.Font.Gotham
             Converted["_Title"].Text = "Section"
-            Converted["_Title"].TextColor3 = Color3.fromRGB(165.00000536441803, 165.00000536441803, 165.00000536441803)
+            Converted["_Title"].TextColor3 = Color3.fromRGB(100.232131, 0, 0)
             Converted["_Title"].TextScaled = false
             Converted["_Title"].TextSize = 13
             Converted["_Title"].TextTruncate = Enum.TextTruncate.AtEnd
@@ -3368,7 +3368,7 @@ do
 
             Converted["_Title1"].Font = Enum.Font.GothamMedium
             Converted["_Title1"].Text = "Toggle"
-            Converted["_Title1"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
+            Converted["_Title1"].TextColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Title1"].TextSize = 14
             Converted["_Title1"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Title1"].TextWrapped = true
