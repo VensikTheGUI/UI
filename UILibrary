@@ -717,7 +717,7 @@ do
             Converted["_ImageLabel2"].Parent = Converted["_Input"]
 
             Converted["_Message1"].Font = Enum.Font.Gotham
-            Converted["_Message1"].Text = "The key is in the discord server. Copy the  invite by pressing the button above."
+            Converted["_Message1"].Text = "The Key Is In The Discord, Copy Above."
             Converted["_Message1"].TextColor3 = Color3.fromRGB(255, 0, 0)
             Converted["_Message1"].TextScaled = true
             Converted["_Message1"].TextSize = 1
@@ -2145,7 +2145,7 @@ do
                     checkMark.Visible = false
                     text.Text = "Copy Invite"
                     table.insert(_connections,utility:HandleGradientButton(btn,function()
-                        if text.Text == "Copy Discord" then
+                        if text.Text == "Copy Invite" then
                             text.Text = "Copied"
                             checkMark.Visible = true
                             setclipboard(info.Discord or "No Invite")
