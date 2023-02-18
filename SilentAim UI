@@ -19,7 +19,7 @@
 -- Discord Tag : gunna#5029
 -- Discord Server : https://discord.gg/7YmMpfe3Ka
 
--- Latest Update : Misc Updates To The UI.
+-- Latest Update : Color Changes.
 
 -- Disrespected Other Script Owners Will Lead To Consequences. 
 
@@ -143,13 +143,13 @@ function Library:NewWindow(name)
     
     Window.Name = (WindowName .. "Window")
     Window.Parent = Container
-    Window.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+    Window.BackgroundColor3 = Color3.new(1, 1, 1)
     Window.BackgroundTransparency = 1
     Window.Position = UDim2.new(WindowPosition, -100, 3, -265)
     Window.Size = UDim2.new(0, 170, 0, 30)
     Window.ZIndex = 2
     Window.Image = "rbxassetid://3570695787"
-    Window.ImageColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+    Window.ImageColor3 = Color3.new(1, 1, 1)
     Window.ScaleType = Enum.ScaleType.Slice
     Window.SliceCenter = Rect.new(100, 100, 100, 100)
     Window.SliceScale =  0.05
@@ -192,7 +192,7 @@ function Library:NewWindow(name)
             TweenService:Create(WindowToggle, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {TextTransparency = 1}):Play()
            
             WindowToggle.Text = "v"
-            WindowToggle.TextSize = 14
+            WindowToggle.TextSize = 13
             WindowToggle.Visible = false       
 
             repeat wait() until WindowToggle.TextTransparency == 1
@@ -210,7 +210,7 @@ function Library:NewWindow(name)
     WindowTitle.Font = Enum.Font.SourceSansBold
     WindowTitle.Text = name
     WindowTitle.TextColor3 = Color3.new(1, 1, 1)
-    WindowTitle.TextSize = 17
+    WindowTitle.TextSize = 15
 
     BottomRoundCover.Name = "BottomRoundCover"
     BottomRoundCover.Parent = Topbar
@@ -273,7 +273,7 @@ function Library:NewWindow(name)
 
         Section1Holder.Name = (SectionName .. "Section")
         Section1Holder.Parent = Body
-        Section1Holder.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.176471)
+        Section1Holder.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
         Section1Holder.BorderSizePixel = 0
         Section1Holder.ClipsDescendants = true
         Section1Holder.Size = UDim2.new(0, 170, 0, SectionYSize)
@@ -296,7 +296,7 @@ function Library:NewWindow(name)
         SectionToggle.Font = Enum.Font.SourceSansSemibold
         SectionToggle.Text = SectionToggleText
         SectionToggle.TextColor3 = Color3.new(1, 1, 1)
-        SectionToggle.TextSize = 14
+        SectionToggle.TextSize = 13
         SectionToggle.TextWrapped = true
         
         SectionTitle.Name = "SectionTitle"
@@ -309,7 +309,7 @@ function Library:NewWindow(name)
         SectionTitle.Font = Enum.Font.SourceSansBold
         SectionTitle.Text = name
         SectionTitle.TextColor3 = Color3.new(1, 1, 1)
-        SectionTitle.TextSize = 17
+        SectionTitle.TextSize = 15
         SectionTitle.TextXAlignment = Enum.TextXAlignment.Left
         
         Layout.Name = "Layout"
@@ -354,7 +354,7 @@ function Library:NewWindow(name)
                 TweenService:Create(WindowToggle, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {TextTransparency = 1}):Play()
 
                 SectionToggle.Text = SectionToggleText
-                SectionToggle.TextSize = 14
+                SectionToggle.TextSize = 13
                 SectionToggle.Visible = false
                 WindowToggle.Visible = false
 
@@ -393,7 +393,7 @@ function Library:NewWindow(name)
             ToggleTitle.Font = Enum.Font.SourceSansBold
             ToggleTitle.Text = name
             ToggleTitle.TextColor3 = Color3.new(1, 1, 1)
-            ToggleTitle.TextSize = 17
+            ToggleTitle.TextSize = 15
             ToggleTitle.TextXAlignment = Enum.TextXAlignment.Left
         
             ToggleBackground.Name = "ToggleBackground"
@@ -413,7 +413,7 @@ function Library:NewWindow(name)
             ToggleButton.Position = UDim2.new(0, 2, 0, 2)
             ToggleButton.Size = UDim2.new(0, 16, 0, 16)
             ToggleButton.Image = "rbxassetid://3570695787"
-            ToggleButton.ImageColor3 = Color3.new(1, 0.341176, 0.341176)
+            ToggleButton.ImageColor3 = Color3.new(1, 1, 1)
             ToggleButton.ImageTransparency = 1
 
             ToggleButton.MouseButton1Down:Connect(function()	
@@ -497,17 +497,17 @@ function Library:NewWindow(name)
             SliderTitle.Font = Enum.Font.SourceSansSemibold
             SliderTitle.Text = name
             SliderTitle.TextColor3 = Color3.new(1, 1, 1)
-            SliderTitle.TextSize = 17
+            SliderTitle.TextSize = 15
             SliderTitle.TextXAlignment = Enum.TextXAlignment.Left
 
             SliderValueHolder.Name = "SliderValueHolder"
             SliderValueHolder.Parent = SliderHolder
-            SliderValueHolder.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            SliderValueHolder.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             SliderValueHolder.BackgroundTransparency = 1
             SliderValueHolder.Position = UDim2.new(0.747058809, 0, 0, 0)
             SliderValueHolder.Size = UDim2.new(0, 35, 0, 15)
             SliderValueHolder.Image = "rbxassetid://3570695787"
-            SliderValueHolder.ImageColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            SliderValueHolder.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             SliderValueHolder.ImageTransparency = 0.5
             SliderValueHolder.ScaleType = Enum.ScaleType.Slice
             SliderValueHolder.SliceCenter = Rect.new(100, 100, 100, 100)
@@ -521,17 +521,17 @@ function Library:NewWindow(name)
             SliderValue.Font = Enum.Font.SourceSansSemibold
             SliderValue.Text = tostring(startvalue or PreciseSliderValue and tonumber(string.format("%.2f", startvalue)))
             SliderValue.TextColor3 = Color3.new(1, 1, 1)
-            SliderValue.TextSize = 14
+            SliderValue.TextSize = 13
 
             SliderBackground.Name = "SliderBackground"
             SliderBackground.Parent = SliderHolder
-            SliderBackground.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            SliderBackground.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             SliderBackground.BackgroundTransparency = 1
             SliderBackground.Position = UDim2.new(0.0529999994, 0, 0.649999976, 0)
             SliderBackground.Selectable = true
             SliderBackground.Size = UDim2.new(0, 153, 0, 5)
             SliderBackground.Image = "rbxassetid://3570695787"
-            SliderBackground.ImageColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            SliderBackground.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             SliderBackground.ImageTransparency = 0.5
             SliderBackground.ScaleType = Enum.ScaleType.Slice
             SliderBackground.SliceCenter = Rect.new(100, 100, 100, 100)
@@ -662,7 +662,7 @@ function Library:NewWindow(name)
 
             ColorPickerHolder.Name = (ColorPickerName .. "ColorPickerHolder")
             ColorPickerHolder.Parent = Section1Holder
-            ColorPickerHolder.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            ColorPickerHolder.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ColorPickerHolder.BorderSizePixel = 0
             ColorPickerHolder.Size = UDim2.new(0, 170, 0, 30)
 
@@ -676,7 +676,7 @@ function Library:NewWindow(name)
             ColorPickerTitle.Font = Enum.Font.SourceSansBold
             ColorPickerTitle.Text = name
             ColorPickerTitle.TextColor3 = Color3.new(1, 1, 1)
-            ColorPickerTitle.TextSize = 17
+            ColorPickerTitle.TextSize = 15
             ColorPickerTitle.TextXAlignment = Enum.TextXAlignment.Left
             
             ColorPickerToggle.Name = "ColorPickerToggle"
@@ -693,14 +693,14 @@ function Library:NewWindow(name)
             
             ColorPickerMain.Name = "ColorPickerMain"
             ColorPickerMain.Parent = ColorPickerHolder
-            ColorPickerMain.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            ColorPickerMain.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ColorPickerMain.BackgroundTransparency = 1
             ColorPickerMain.ClipsDescendants = true
             ColorPickerMain.BorderSizePixel = 0
             ColorPickerMain.Position = UDim2.new(1.04705882, 0, -1.36666667, 0)
             ColorPickerMain.Size = UDim2.new(0, 0, 0, 175)
             ColorPickerMain.Image = "rbxassetid://3570695787"
-            ColorPickerMain.ImageColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            ColorPickerMain.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ColorPickerMain.ScaleType = Enum.ScaleType.Slice
             ColorPickerMain.SliceCenter = Rect.new(100, 100, 100, 100)
             ColorPickerMain.SliceScale = 0.05
@@ -708,7 +708,7 @@ function Library:NewWindow(name)
             
             RainbowToggleHolder.Name = "RainbowToggleHolder"
             RainbowToggleHolder.Parent = ColorPickerMain
-            RainbowToggleHolder.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            RainbowToggleHolder.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             RainbowToggleHolder.BackgroundTransparency = 1
             RainbowToggleHolder.BorderSizePixel = 0
             RainbowToggleHolder.Position = UDim2.new(0, 0, 0.819999993, 0)
@@ -725,7 +725,7 @@ function Library:NewWindow(name)
             RainbowTitle.Font = Enum.Font.SourceSansBold
             RainbowTitle.Text = "Rainbow"
             RainbowTitle.TextColor3 = Color3.new(1, 1, 1)
-            RainbowTitle.TextSize = 17
+            RainbowTitle.TextSize = 15
             RainbowTitle.TextXAlignment = Enum.TextXAlignment.Left
             RainbowTitle.ZIndex = 1 + ColorPickerZIndex
 
@@ -737,7 +737,7 @@ function Library:NewWindow(name)
             RainbowBackground.Position = UDim2.new(0.847058833, 0, 0.166666672, 0)
             RainbowBackground.Size = UDim2.new(0, 20, 0, 20)
             RainbowBackground.Image = "rbxassetid://3570695787"
-            RainbowBackground.ImageColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            RainbowBackground.ImageColor3 = Color3.new(0.154902, 0.154902, 0.154902)
             RainbowBackground.ZIndex = 1 + ColorPickerZIndex
 
             RainbowToggleButton.Name = "RainbowToggleButton"
@@ -747,13 +747,13 @@ function Library:NewWindow(name)
             RainbowToggleButton.Position = UDim2.new(0, 2, 0, 2)
             RainbowToggleButton.Size = UDim2.new(0, 16, 0, 16)
             RainbowToggleButton.Image = "rbxassetid://3570695787"
-            RainbowToggleButton.ImageColor3 = Color3.new(1, 0.341176, 0.341176)
+            RainbowToggleButton.ImageColor3 = Color3.new(1, 1, 1)
             RainbowToggleButton.ImageTransparency = 1
             RainbowToggleButton.ZIndex = 1 + ColorPickerZIndex
 
             ColorValueR.Name = "ColorValueR"
             ColorValueR.Parent = ColorPickerMain
-            ColorValueR.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            ColorValueR.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ColorValueR.BackgroundTransparency = 1
             ColorValueR.BorderSizePixel = 0
             ColorValueR.ClipsDescendants = true
@@ -763,7 +763,7 @@ function Library:NewWindow(name)
             ColorValueR.Font = Enum.Font.SourceSansBold
             ColorValueR.Text = "R: 000"
             ColorValueR.TextColor3 = Color3.new(1, 1, 1)
-            ColorValueR.TextSize = 14
+            ColorValueR.TextSize = 13
 
             ColorValueRRound.Name = "ColorValueRRound"
             ColorValueRRound.Parent = ColorValueR
@@ -775,7 +775,7 @@ function Library:NewWindow(name)
             ColorValueRRound.Selectable = true
             ColorValueRRound.Size = UDim2.new(1, 0, 1, 0)
             ColorValueRRound.Image = "rbxassetid://3570695787"
-            ColorValueRRound.ImageColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            ColorValueRRound.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ColorValueRRound.ScaleType = Enum.ScaleType.Slice
             ColorValueRRound.SliceCenter = Rect.new(100, 100, 100, 100)
             ColorValueRRound.SliceScale = 0.04
@@ -783,7 +783,7 @@ function Library:NewWindow(name)
 
             ColorValueG.Name = "ColorValueG"
             ColorValueG.Parent = ColorPickerMain
-            ColorValueG.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            ColorValueG.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ColorValueG.BackgroundTransparency = 1
             ColorValueG.BorderSizePixel = 0
             ColorValueG.ClipsDescendants = true
@@ -793,7 +793,7 @@ function Library:NewWindow(name)
             ColorValueG.Font = Enum.Font.SourceSansBold
             ColorValueG.Text = "G: 000"
             ColorValueG.TextColor3 = Color3.new(1, 1, 1)
-            ColorValueG.TextSize = 14
+            ColorValueG.TextSize = 13
 
             ColorValueGRound.Name = "ColorValueGRound"
             ColorValueGRound.Parent = ColorValueG
@@ -805,7 +805,7 @@ function Library:NewWindow(name)
             ColorValueGRound.Selectable = true
             ColorValueGRound.Size = UDim2.new(1, 0, 1, 0)
             ColorValueGRound.Image = "rbxassetid://3570695787"
-            ColorValueGRound.ImageColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            ColorValueGRound.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ColorValueGRound.ScaleType = Enum.ScaleType.Slice
             ColorValueGRound.SliceCenter = Rect.new(100, 100, 100, 100)
             ColorValueGRound.SliceScale = 0.04
@@ -813,7 +813,7 @@ function Library:NewWindow(name)
 
             ColorValueB.Name = "ColorValueB"
             ColorValueB.Parent = ColorPickerMain
-            ColorValueB.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            ColorValueB.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ColorValueB.BackgroundTransparency = 1
             ColorValueB.BorderSizePixel = 0
             ColorValueB.ClipsDescendants = true
@@ -823,7 +823,7 @@ function Library:NewWindow(name)
             ColorValueB.Font = Enum.Font.SourceSansBold
             ColorValueB.Text = "B: 000"
             ColorValueB.TextColor3 = Color3.new(1, 1, 1)
-            ColorValueB.TextSize = 14
+            ColorValueB.TextSize = 13
 
             ColorValueBRound.Name = "ColorValueBRound"
             ColorValueBRound.Parent = ColorValueB
@@ -835,7 +835,7 @@ function Library:NewWindow(name)
             ColorValueBRound.Selectable = true
             ColorValueBRound.Size = UDim2.new(1, 0, 1, 0)
             ColorValueBRound.Image = "rbxassetid://3570695787"
-            ColorValueBRound.ImageColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            ColorValueBRound.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ColorValueBRound.ScaleType = Enum.ScaleType.Slice
             ColorValueBRound.SliceCenter = Rect.new(100, 100, 100, 100)
             ColorValueBRound.SliceScale = 0.04
@@ -850,7 +850,7 @@ function Library:NewWindow(name)
             RoundHueHolder.Size = UDim2.new(0, 28, 0, 114)
             RoundHueHolder.ZIndex = 2 + ColorPickerZIndex
             RoundHueHolder.Image = "rbxassetid://4695575676"
-            RoundHueHolder.ImageColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            RoundHueHolder.ImageColor3 = Color3.new(0.1, 0.1, 0.1)
             RoundHueHolder.ScaleType = Enum.ScaleType.Slice
             RoundHueHolder.SliceCenter = Rect.new(128, 128, 128, 128)
             RoundHueHolder.SliceScale = 0.05
@@ -867,7 +867,7 @@ function Library:NewWindow(name)
 
             HueMarker.Name = "HueMarker"
             HueMarker.Parent = RoundHueHolder
-            HueMarker.BackgroundColor3 = Color3.new(0.294118, 0.294118, 0.294118)
+            HueMarker.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             HueMarker.BorderSizePixel = 0
             HueMarker.Position = UDim2.new(-0.25, 0, 0, 0)
             HueMarker.Size = UDim2.new(0, 42, 0, 5)
@@ -882,7 +882,7 @@ function Library:NewWindow(name)
             RoundSaturationHolder.Size = UDim2.new(0, 122, 0, 114)
             RoundSaturationHolder.ZIndex = 2 + ColorPickerZIndex
             RoundSaturationHolder.Image = "rbxassetid://4695575676"
-            RoundSaturationHolder.ImageColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            RoundSaturationHolder.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             RoundSaturationHolder.ScaleType = Enum.ScaleType.Slice
             RoundSaturationHolder.SliceCenter = Rect.new(128, 128, 128, 128)
             RoundSaturationHolder.SliceScale = 0.05
@@ -1121,13 +1121,13 @@ function Library:NewWindow(name)
 
             ButtonHolder.Name = (ButtonName .. "ButtonHolder")
             ButtonHolder.Parent = Section1Holder
-            ButtonHolder.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            ButtonHolder.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ButtonHolder.BorderSizePixel = 0
             ButtonHolder.Size = UDim2.new(0, 170, 0, 30)
             
             Button.Name = "Button"
             Button.Parent = ButtonHolder
-            Button.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            Button.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             Button.BackgroundTransparency = 1
             Button.BorderSizePixel = 0
             Button.Position = UDim2.new(0.052941177, 0, 0, 0)
@@ -1137,7 +1137,7 @@ function Library:NewWindow(name)
             Button.Font = Enum.Font.SourceSansBold
             Button.Text = name
             Button.TextColor3 = Color3.new(1, 1, 1)
-            Button.TextSize = 14
+            Button.TextSize = 13
             
             ButtonRound.Name = "ButtonRound"
             ButtonRound.Parent = Button
@@ -1151,7 +1151,7 @@ function Library:NewWindow(name)
             ButtonRound.Selectable = true
             ButtonRound.Size = UDim2.new(1, 0, 1, 0)
             ButtonRound.Image = "rbxassetid://3570695787"
-            ButtonRound.ImageColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            ButtonRound.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             ButtonRound.ScaleType = Enum.ScaleType.Slice
             ButtonRound.SliceCenter = Rect.new(100, 100, 100, 100)
             ButtonRound.SliceScale = 0.04
@@ -1210,12 +1210,12 @@ function Library:NewWindow(name)
 
             TextBoxHolder.Name = (TextBoxName .. "TextBoxHolder")
             TextBoxHolder.Parent = Section1Holder
-            TextBoxHolder.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            TextBoxHolder.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             TextBoxHolder.BorderSizePixel = 0
             TextBoxHolder.Size = UDim2.new(0, 170, 0, 30)
             
             TextBox.Parent = TextBoxHolder
-            TextBox.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            TextBox.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             TextBox.BackgroundTransparency = 1
             TextBox.ClipsDescendants = true
             TextBox.Position = UDim2.new(0.0529999994, 0, 0, 0)
@@ -1225,7 +1225,7 @@ function Library:NewWindow(name)
             TextBox.PlaceholderText = name
             TextBox.Text = ""
             TextBox.TextColor3 = Color3.new(1, 1, 1)
-            TextBox.TextSize = 14
+            TextBox.TextSize = 13
             
             TextBoxRound.Name = "TextBoxRound"
             TextBoxRound.Parent = TextBox
@@ -1312,13 +1312,13 @@ function Library:NewWindow(name)
 
             DropdownHolder.Name = (DropdownName .. "DropdownHolder")
             DropdownHolder.Parent = Section1Holder
-            DropdownHolder.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            DropdownHolder.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             DropdownHolder.BorderSizePixel = 0
             DropdownHolder.Size = UDim2.new(0, 170, 0, 30)
             
             DropdownTitle.Name = "DropdownTitle"
             DropdownTitle.Parent = DropdownHolder
-            DropdownTitle.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            DropdownTitle.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             DropdownTitle.BackgroundTransparency = 1
             DropdownTitle.BorderSizePixel = 0
             DropdownTitle.Position = UDim2.new(0.0529999994, 0, 0, 0)
@@ -1327,7 +1327,7 @@ function Library:NewWindow(name)
             DropdownTitle.Font = Enum.Font.SourceSansBold
             DropdownTitle.Text = SelectedOptionName
             DropdownTitle.TextColor3 = Color3.new(1, 1, 1)
-            DropdownTitle.TextSize = 14
+            DropdownTitle.TextSize = 13
             
             DropdownRound.Name = "DropdownRound"
             DropdownRound.Parent = DropdownTitle
@@ -1341,7 +1341,7 @@ function Library:NewWindow(name)
             DropdownRound.Selectable = true
             DropdownRound.Size = UDim2.new(1, 0, 1, 0)
             DropdownRound.Image = "rbxassetid://3570695787"
-            DropdownRound.ImageColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+            DropdownRound.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             DropdownRound.ScaleType = Enum.ScaleType.Slice
             DropdownRound.SliceCenter = Rect.new(100, 100, 100, 100)
             DropdownRound.SliceScale = 0.04
@@ -1360,13 +1360,13 @@ function Library:NewWindow(name)
             
             DropdownMain.Name = "DropdownMain"
             DropdownMain.Parent = DropdownTitle
-            DropdownMain.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            DropdownMain.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             DropdownMain.BackgroundTransparency = 1
             DropdownMain.ClipsDescendants = true
             DropdownMain.Position = UDim2.new(1.09275186, 0, -0.0336658955, 0)
             DropdownMain.Size = UDim2.new(0, 0, 0, DropdownYSize)
             DropdownMain.Image = "rbxassetid://3570695787"
-            DropdownMain.ImageColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            DropdownMain.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             DropdownMain.ScaleType = Enum.ScaleType.Slice
             DropdownMain.SliceCenter = Rect.new(100, 100, 100, 100)
             DropdownMain.SliceScale = 0.04
@@ -1395,7 +1395,7 @@ function Library:NewWindow(name)
 
                 DropdownOption.Name = (DropdownButtonName .. "Button")
                 DropdownOption.Parent = ScrollingFrame
-                DropdownOption.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+                DropdownOption.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
                 DropdownOption.BackgroundTransparency = 1
                 DropdownOption.BorderSizePixel = 0
                 DropdownOption.Position = UDim2.new(0, 0, 0, 0)
@@ -1404,7 +1404,7 @@ function Library:NewWindow(name)
                 DropdownOption.Font = Enum.Font.SourceSansBold
                 DropdownOption.Text = v
                 DropdownOption.TextColor3 = Color3.new(1, 1, 1)
-                DropdownOption.TextSize = 14
+                DropdownOption.TextSize = 13
 
                 if NumberOfOptions <= 4 then
                     DropdownYSize = DropdownYSize + 25
