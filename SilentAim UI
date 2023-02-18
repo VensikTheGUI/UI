@@ -149,7 +149,7 @@ function Library:NewWindow(name)
     Window.Size = UDim2.new(0, 170, 0, 30)
     Window.ZIndex = 2
     Window.Image = "rbxassetid://3570695787"
-    Window.ImageColor3 = Color3.new(0.10291, 0.10291, 0.10291)
+    Window.ImageColor3 = Color3.new(0.19999, 0.19999, 0.19999)
     Window.ScaleType = Enum.ScaleType.Slice
     Window.SliceCenter = Rect.new(100, 100, 100, 100)
     Window.SliceScale =  0.05
@@ -227,7 +227,7 @@ function Library:NewWindow(name)
     Body.ClipsDescendants = true
     Body.Size = UDim2.new(0, 170, 0, BodyYSize)
     Body.Image = "rbxassetid://3570695787"
-    Body.ImageColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+    Body.ImageColor3 = Color3.new(0.19999, 0.19999, 0.19999)
     Body.ScaleType = Enum.ScaleType.Slice
     Body.SliceCenter = Rect.new(100, 100, 100, 100)
     Body.SliceScale =  0.05
@@ -502,12 +502,12 @@ function Library:NewWindow(name)
 
             SliderValueHolder.Name = "SliderValueHolder"
             SliderValueHolder.Parent = SliderHolder
-            SliderValueHolder.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
+            SliderValueHolder.BackgroundColor3 = Color3.new(0.19999, 0.19999, 0.19999)
             SliderValueHolder.BackgroundTransparency = 1
             SliderValueHolder.Position = UDim2.new(0.747058809, 0, 0, 0)
             SliderValueHolder.Size = UDim2.new(0, 35, 0, 15)
             SliderValueHolder.Image = "rbxassetid://3570695787"
-            SliderValueHolder.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
+            SliderValueHolder.ImageColor3 = Color3.new(0.19999, 0.19999, 0.19999)
             SliderValueHolder.ImageTransparency = 0.5
             SliderValueHolder.ScaleType = Enum.ScaleType.Slice
             SliderValueHolder.SliceCenter = Rect.new(100, 100, 100, 100)
@@ -531,7 +531,7 @@ function Library:NewWindow(name)
             SliderBackground.Selectable = true
             SliderBackground.Size = UDim2.new(0, 153, 0, 5)
             SliderBackground.Image = "rbxassetid://3570695787"
-            SliderBackground.ImageColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
+            SliderBackground.ImageColor3 = Color3.new(0.19999, 0.19999, 0.19999)
             SliderBackground.ImageTransparency = 0.5
             SliderBackground.ScaleType = Enum.ScaleType.Slice
             SliderBackground.SliceCenter = Rect.new(100, 100, 100, 100)
@@ -1210,7 +1210,7 @@ function Library:NewWindow(name)
 
             TextBoxHolder.Name = (TextBoxName .. "TextBoxHolder")
             TextBoxHolder.Parent = Section1Holder
-            TextBoxHolder.BackgroundColor3 = Color3.new(0.19999, 0.19999, 0.19999)
+            TextBoxHolder.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             TextBoxHolder.BorderSizePixel = 0
             TextBoxHolder.Size = UDim2.new(0, 170, 0, 30)
             
@@ -1312,7 +1312,7 @@ function Library:NewWindow(name)
 
             DropdownHolder.Name = (DropdownName .. "DropdownHolder")
             DropdownHolder.Parent = Section1Holder
-            DropdownHolder.BackgroundColor3 = Color3.new(0.19999, 0.19999, 0.19999)
+            DropdownHolder.BackgroundColor3 = Color3.new(0.117647058824, 0.117647058824, 0.117647058824)
             DropdownHolder.BorderSizePixel = 0
             DropdownHolder.Size = UDim2.new(0, 170, 0, 30)
             
