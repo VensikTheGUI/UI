@@ -134,7 +134,7 @@ function Library:NewWindow(name)
         TweenService:Create(Body, TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0, 170, 0, BodyYSize)}):Play()
     end
 
-    local function UnExtendBodySize(value)tton
+    local function UnExtendBodySize(value)
         BodyYSize = BodyYSize - value
 
         TweenService:Create(Body, TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0, 170, 0, BodyYSize)}):Play()
