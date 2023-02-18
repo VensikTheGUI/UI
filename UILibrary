@@ -2562,7 +2562,7 @@ do
         }, Library)
 
         table.insert(self._connections,UIS.InputBegan:Connect(function(input,gpe)
-            if input.UserInputType==Enum.UserInputType.Keyboard and input.KeyCode.Name==self.toggleBind and not gpe and not game:GetService('UserInputService'):GetFocusedTextBox() then
+            if input.UserInputType==Enum.UserInputType.Keyboard and input.KeyCode.Name==self.toggleBind and not gpe then
                 self:Toggle()
             end
         end))
