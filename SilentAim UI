@@ -19,7 +19,7 @@
 -- Discord Tag : gunna#5029
 -- Discord Server : https://discord.gg/7YmMpfe3Ka
 
--- Latest Update : Color Changes.
+-- Latest Update : Misc Updates To The UI.
 
 -- Disrespected Other Script Owners Will Lead To Consequences. 
 
@@ -143,13 +143,13 @@ function Library:NewWindow(name)
     
     Window.Name = (WindowName .. "Window")
     Window.Parent = Container
-    Window.BackgroundColor3 = Color3.new(1, 1, 1)
+    Window.BackgroundColor3 = Color3.new(0, 0, 0)
     Window.BackgroundTransparency = 1
     Window.Position = UDim2.new(WindowPosition, -100, 3, -265)
     Window.Size = UDim2.new(0, 170, 0, 30)
     Window.ZIndex = 2
     Window.Image = "rbxassetid://3570695787"
-    Window.ImageColor3 = Color3.new(1, 1, 1)
+    Window.ImageColor3 = Color3.new(0.10291, 0.10291, 0.10291)
     Window.ScaleType = Enum.ScaleType.Slice
     Window.SliceCenter = Rect.new(100, 100, 100, 100)
     Window.SliceScale =  0.05
@@ -164,7 +164,7 @@ function Library:NewWindow(name)
 
     WindowToggle.Name = "WindowToggle"
     WindowToggle.Parent = Topbar
-    WindowToggle.BackgroundColor3 = Color3.new(1, 1, 1)
+    WindowToggle.BackgroundColor3 = Color3.new(0, 0, 0)
     WindowToggle.BackgroundTransparency = 1
     WindowToggle.Position = UDim2.new(0.822450161, 0, 0, 0)
     WindowToggle.Size = UDim2.new(0, 30, 0, 30)
