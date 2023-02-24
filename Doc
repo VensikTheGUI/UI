@@ -7,7 +7,7 @@ local test = Atlas.new({
     Color = Color3.fromRGB(255, 255, 255); -- UI MainColor
     FullName = "Document"; -- Loader Name
     UseLoader = true; -- If you want to use loader.
-    Bind = "V"; -- Open n Close KEYBIND
+    Bind = "V"; -- Open n Close Keybind, Must Be A Valid Enum.KeyCode
     CheckKey = function(e) -- this can be nil to disable key checking
         return e == "KEYHERE"
     end;
