@@ -1,4 +1,4 @@
-local Atlas = loadstring(game:HttpGet("https://raw.githubusercontent.com/VenusTheGUIRemastered/UI/main/UILibrary"))()
+local Atlas = loadstring(game:HttpGet("https://raw.githubusercontent.com/VenusTheUI/UI/main/UILibrary"))()
 
 local test = Atlas.new({
     Name = "ATLAS UI LIBRARY"; -- SCRIPTNAME
