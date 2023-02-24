@@ -6,12 +6,12 @@ local test = Atlas.new({
     Credit = "CREDITS HERE!"; -- (i) at the top left of the UI.
     Color = Color3.fromRGB(255, 255, 255); -- UI Theme Color
     FullName = "Document"; -- Loader Name
-    UseLoader = true; -- If you want to use loader.
+    UseLoader = true; -- If You Want To Use The Loader. ( Key System )
     Bind = "V"; -- Open n Close Keybind, Must Be A Valid Enum.KeyCode
-    CheckKey = function(e) -- this can be nil to disable key checking
-        return e == "KEYHERE"
+    CheckKey = function(key) -- this can be nil to disable key checking
+        return key == "KEYHERE"
     end;
-    Discord = "URDISCORDHERE"
+    Discord = "URDISCORDHERE" -- Don't use discord.gg, just use the numbers. Ex: Discord = "7YmMpfe3Ka"
 })
 
 local p1 = test:CreatePage("Page1")
