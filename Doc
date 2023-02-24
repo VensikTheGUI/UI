@@ -3,15 +3,15 @@ local Atlas = loadstring(game:HttpGet("https://raw.githubusercontent.com/VenusTh
 local test = Atlas.new({
     Name = "ATLAS UI LIBRARY"; -- SCRIPTNAME
     ConfigFolder = "CONFIGFOLDER"; -- If you want to Save Configs.
-    Credit = "CREDITS HERE!"; -- (i) at the top of the UI.
-    Color = Color3.fromRGB(255, 255, 255); -- UI MainColor
+    Credit = "CREDITS HERE!"; -- (i) at the top left of the UI.
+    Color = Color3.fromRGB(255, 255, 255); -- UI Theme Color
     FullName = "Document"; -- Loader Name
     UseLoader = true; -- If you want to use loader.
     Bind = "V"; -- Open n Close Keybind, Must Be A Valid Enum.KeyCode
     CheckKey = function(e) -- this can be nil to disable key checking
         return e == "KEYHERE"
     end;
-    Discord = "https://discord.gg/URDISCORDHERE"
+    Discord = "URDISCORDHERE"
 })
 
 local p1 = test:CreatePage("Page1")
