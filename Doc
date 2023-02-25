@@ -1,43 +1,68 @@
-local Atlas = loadstring(game:HttpGet("https://raw.githubusercontent.com/VenusTheUI/UI/main/UILibrary"))()
+-- No Double UI Script, Remove If You Want.
+for i,v in pairs(game.CoreGui:GetDescendants()) do
+    if v.Name == "VNS" then
+        v:Destroy()
+    end -- END OF COREGUI
+end -- AutoDeleter
 
-local test = Atlas.new({
-    Name = "ATLAS UI LIBRARY"; -- SCRIPTNAME
-    ConfigFolder = "CONFIGFOLDER"; -- If you want to Save Configs.
-    Credit = "CREDITS HERE!"; -- (i) at the top left of the UI.
-    Color = Color3.fromRGB(255, 255, 255); -- UI Theme Color
-    FullName = "Document"; -- Loader Name
-    UseLoader = true; -- If You Want To Use The Loader. ( Key System )
-    Bind = "V"; -- Open n Close Keybind, Must Be A Valid Enum.KeyCode
-    CheckKey = function(key) -- this can be nil to disable key checking
-        return key == "KEYHERE"
-    end;
-    Discord = "URDISCORDHERE" -- Don't use discord.gg, just use the numbers. Ex: Discord = "7YmMpfe3Ka"
-})
+  local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/VenusTheGUIRemastered/UI/main/UILibrary"))()
+    
+    
+    local UI = UILibrary.new({
+        Name = "TITLE"; -- script name (required)
+        ConfigFolder = "SAVEFOLDER"; -- folder name to save configs to, set this to nil if  you want to disable configs saving
+        Credit = "CREDITS"; -- text to appear if player presses the "i" button on their UI (optional)
+        Color = Color3.fromRGB(255, 255, 255); -- theme color for UI (required)
+        Bind = "V"; -- keybind for toggling the UI ( visible n not visible ), must be a valid KeyCode name
+        -- Loader:
+        UseLoader = true; -- whether to use Loader or not, if set to false than CheckKey and Discord are ignored
+        FullName = "SCRIPT LOADER TITLE"; -- works if UseLoader is set to true, can be same as Name argument, shown on loader frame
+        CheckKey = function(inputtedKey) -- works if UseLoader is set to true, where inputtedKey is the key inputted by the player.
+            return inputtedKey=="ENTER KEY HERE"
+        end;
+        Discord = "UR DISCORD"; --  Don't use discord.gg, just use the numbers. Ex: Discord = "7YmMpfe3Ka", Will appear in loader at "Copy Discord" in the top right.
+    })
+    
+--[[
+["Warning"] = 11110093949;
+["Info"] = 11109991278; --------------- ROBLOX IMAGE ASSETS
+["Error"] = 11109992284;
+--]] 
 
-local p1 = test:CreatePage("Page1")
-local p2 = test:CreatePage("Page2")
+local p1 = UI:CreatePage("Page1")
+local p2 = UI:CreatePage("Page2")
 
 local s1 = p1:CreateSection("Section 1")
 local s2 = p1:CreateSection("Section 2")
 local s3 = p2:CreateSection("Catagory 1")
 local s4 = p2:CreateSection("Catagory 2")
 
-s1:CreateToggle({ -- IMPORTANT: This function does not return anything, please modify flags directly in order to read or update toggle values. SCROLL TO BOTTOM OF PAGE TO SEE HOW TO MODIFY FLAGS
+s1:CreateToggle({
     Name = "Toggle"; -- required: name of element
-    Flag = "MyToggle"; -- required: unique flag name to use
+    Flag = "Toggle1"; -- required: unique flag name to use
     Default = true; -- optional: default value for toggle, will be used if config saving is disabled and there is no saved data, will be false if left nil
     Callback = function(newValue) -- optional: function that will be called when toggled, it is reccomended to modify flags directly
-        print("Toggle:",newValue)
+if newValue then
+UI:Notify({
+  Title = "My Notification";
+  Content = "Toggled On.";
+})
+else
+    UI:Notify({
+  Title = "My Notification";
+  Content = "Toggled Off.";
+})
+end
     end;
     -- Scroll to the bottom of the page to read more about the following two:
-    Warning = "WARNING HERE"; -- optional: this argument is used in all elements (except for Body) and will indicate text that will appear when the player hovers over the warning icon
-    WarningIcon = nil; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
+    Warning = "This Has Information"; -- Optional : Warning / Information / Error Next To
+    WarningIcon = 11109991278; -- Optional : Roblox ImageAssetId, Will Appear Next To Parent.
 })
 
 s2:CreateSliderToggle({ -- IMPORTANT: This function does not return anything, please modify flags directly in order to read or update toggle values. SCROLL TO BOTTOM OF PAGE TO SEE HOW TO MODIFY FLAGS
     Name = "Slider With Toggle"; -- required: name of element
-    SliderFlag = "Slider"; -- required: unique flag name to use for slider element
-    ToggleFlag = "Toggle"; -- required: unique flag name to use for toggle element
+    SliderFlag = "Slider1"; -- required: unique flag name to use for slider element
+    ToggleFlag = "Toggle2"; -- required: unique flag name to use for toggle element
     Min = 0; -- required: slider minimum drag
     Max = 10; -- required: slider maximum drag (Max>Min or else script will error)
     AllowOutOfRange = true; -- optional: determines whether the player can enter values outside of range Min:Max when typing in the TextBox. If left nil, this is false
@@ -52,8 +77,8 @@ s2:CreateSliderToggle({ -- IMPORTANT: This function does not return anything, pl
     end;
     SavingDisabled = true; -- this is how you would disable saving on a single element, just add this argument in
     -- Scroll to the bottom of the page to read more about the following two:
-    Warning = "HELLO"; -- optional: this argument is used in all elements (except for Paragraph) and will indicate text that will appear when the player hovers over the warning icon
-    WarningIcon = nil; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
+    Warning = "This Is A Error."; -- optional: this argument is used in all elements (except for Paragraph) and will indicate text that will appear when the player hovers over the warning icon
+    WarningIcon = 11109992284; -- optional: ImageAssetId for warning icon, will only be used if Warning is not nil, default is yellow warning icon.
 })
 s4:CreateButton({
     Name = "My Button"; -- required: name of element
