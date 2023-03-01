@@ -55,7 +55,7 @@ Library.Icons = {
 
 local old_warn = warn
 local warn = function(...)
-    old_warn("[ATLAS]",...)
+    old_warn("[VNS]",...)
 end
 
 -- UTILITY
