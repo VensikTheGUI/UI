@@ -24,6 +24,13 @@
 -- Disrespected Other Script Owners Will Lead To Consequences. 
 
 -- Script:
+
+for i,v in pairs(game.CoreGui:GetDescendants()) do
+    if v.Name == "SilentAimUIVNS" then
+        v:Destroy()
+    end 
+end 
+
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -43,12 +50,6 @@ local Container = Instance.new("Frame")
 
 SilentAimUIVNS.Name = "SilentAimUIVNS"
 SilentAimUIVNS.Parent = game:GetService("CoreGui")
-
-for i,v in pairs(game.CoreGui:GetDescendants()) do
-    if v.Name == "SilentAimUIVNS" then
-        v:Destroy()
-    end 
-end 
 
 Container.Name = "Container"
 Container.Parent = SilentAimUIVNS
