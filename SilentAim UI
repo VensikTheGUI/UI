@@ -13,7 +13,7 @@
 --]]
 
 
--- THIS IS THE COASTING UI LIBRARY / JUST EDITED!
+-- THIS IS THE COASTIFIEDUI LIBRARY / JUST EDITED!
 
 
 -- Discord Tag : gunna#5029
@@ -38,21 +38,27 @@ local ColorPickerZIndex = 1
 
 local WindowPosition = 0
 
-local CoastifiedLibrary = Instance.new("ScreenGui")
+local SilentAimUIVNS = Instance.new("ScreenGui")
 local Container = Instance.new("Frame")
 
-CoastifiedLibrary.Name = "CoastifiedLibrary"
-CoastifiedLibrary.Parent = game:GetService("CoreGui")
+SilentAimUIVNS.Name = "SilentAimUIVNS"
+SilentAimUIVNS.Parent = game:GetService("CoreGui")
+
+for i,v in pairs(game.CoreGui:GetDescendants()) do
+    if v.Name == "SilentAimUIVNS" then
+        v:Destroy()
+    end 
+end 
 
 Container.Name = "Container"
-Container.Parent = CoastifiedLibrary
+Container.Parent = SilentAimUIVNS
 Container.BackgroundColor3 = Color3.new(1, 1, 1)
 Container.BackgroundTransparency = 1
 Container.Size = UDim2.new(0, 100, 0, 100)
 
 UserInputService.InputBegan:Connect(function(input)
     if input.KeyCode == Enum.KeyCode.RightControl and not game:GetService('UserInputService'):GetFocusedTextBox() then
-        CoastifiedLibrary.Enabled = not CoastifiedLibrary.Enabled
+        SilentAimUIVNS.Enabled = not SilentAimUIVNS.Enabled
     end
 end)
 
@@ -692,14 +698,14 @@ function Library:NewWindow(name)
             
             ColorPickerMain.Name = "ColorPickerMain"
             ColorPickerMain.Parent = ColorPickerHolder
-            ColorPickerMain.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            ColorPickerMain.BackgroundColor3 = Color3.new(0.0937255, 0.0937255, 0.0937255)
             ColorPickerMain.BackgroundTransparency = 1
             ColorPickerMain.ClipsDescendants = true
             ColorPickerMain.BorderSizePixel = 0
             ColorPickerMain.Position = UDim2.new(1.04705882, 0, -1.36666667, 0)
             ColorPickerMain.Size = UDim2.new(0, 0, 0, 175)
             ColorPickerMain.Image = "rbxassetid://3570695787"
-            ColorPickerMain.ImageColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+            ColorPickerMain.ImageColor3 = Color3.new(0.0937255, 0.0937255, 0.0937255)
             ColorPickerMain.ScaleType = Enum.ScaleType.Slice
             ColorPickerMain.SliceCenter = Rect.new(100, 100, 100, 100)
             ColorPickerMain.SliceScale = 0.05
