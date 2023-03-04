@@ -760,7 +760,7 @@ function Library:NewWindow(name)
             ColorValueR.Size = UDim2.new(0, 50, 0, 16)
             ColorValueR.ZIndex = 2 + ColorPickerZIndex
             ColorValueR.Font = Enum.Font.SourceSansSemibold
-            ColorValueR.Text = "Red: 000"
+            ColorValueR.Text = "R: 000"
             ColorValueR.TextColor3 = Color3.new(1, 0, 0)
             ColorValueR.TextSize = 13
 
@@ -790,7 +790,7 @@ function Library:NewWindow(name)
             ColorValueG.Size = UDim2.new(0, 51, 0, 16)
             ColorValueG.ZIndex = 2 + ColorPickerZIndex
             ColorValueG.Font = Enum.Font.SourceSansSemibold
-            ColorValueG.Text = "Green: 000"
+            ColorValueG.Text = "G: 000"
             ColorValueG.TextColor3 = Color3.new(1, 0, 0)
             ColorValueG.TextSize = 13
 
@@ -820,7 +820,7 @@ function Library:NewWindow(name)
             ColorValueB.Size = UDim2.new(0, 50, 0, 16)
             ColorValueB.ZIndex = 2 + ColorPickerZIndex
             ColorValueB.Font = Enum.Font.SourceSansSemibold
-            ColorValueB.Text = "Blue: 000"
+            ColorValueB.Text = "B: 000"
             ColorValueB.TextColor3 = Color3.new(1, 0, 0)
             ColorValueB.TextSize = 13
 
@@ -905,9 +905,9 @@ function Library:NewWindow(name)
             local function SetRGBValues()
                 local RedValue, GreenValue, BlueValue = ColorPickerToggle.ImageColor3.r * 255, ColorPickerToggle.ImageColor3.g * 255, ColorPickerToggle.ImageColor3.b * 255
 
-                ColorValueR.Text = ("Red: " .. math.floor(RedValue))
-                ColorValueG.Text = ("Green: " .. math.floor(GreenValue))
-                ColorValueB.Text = ("Blue: " .. math.floor(BlueValue))
+                ColorValueR.Text = ("R: " .. math.floor(RedValue))
+                ColorValueG.Text = ("G: " .. math.floor(GreenValue))
+                ColorValueB.Text = ("B: " .. math.floor(BlueValue))
             end
 
             SetRGBValues()
