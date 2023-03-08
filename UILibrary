@@ -18,7 +18,7 @@
 -- Discord Tag : gunna#5029
 -- Discord Server : https://discord.gg/7YmMpfe3Ka
 
--- Latest Update : Changed UI To Orange.
+-- Latest Update : Changed Resize Button Color.
 
 -- Disrespecting Other Script Owners Will Lead To Consequences. 
 
@@ -2447,13 +2447,14 @@ do
                         isResizing = false
                     end
                     if isResizing then
-                        setColor(225)
+                        setColor(255)
                         resize.Visible = true
                         local mousePos = Vector2.new(mouse.X-offset.X,mouse.Y-offset.Y)
                         local finalSize = Vector2.new(math.clamp(mousePos.X-main.AbsolutePosition.X,227,math.huge),math.clamp(mousePos.Y-main.AbsolutePosition.Y,225,math.huge))
                         main.Size = UDim2.fromOffset(finalSize.X,finalSize.Y)
                     else
-                        setColor(143)
+                        p1.BackgroundColor3 = Color3.fromRGB(255, 128, 0)
+                        p2.BackgroundColor3 = Color3.fromRGB(255, 128, 0)
                     end
                 end))
             end)()
