@@ -5,6 +5,8 @@ for i,v in pairs(game.CoreGui:GetDescendants()) do
     end -- END OF COREGUI
 end -- AutoDeleter
 
+_G.Color = Color3.fromRGB(255, 255, 255) -- Change The 255, 255, 255 To Whatever You Want The Buttons, Title, Notifications, ETC To Be.
+---------------------------------------------------
   local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/VenusTheGUIRemastered/UI/main/UILibrary"))()
     
     
@@ -12,7 +14,7 @@ end -- AutoDeleter
         Name = "TITLE"; -- script name (required)
         ConfigFolder = "SAVEFOLDER"; -- folder name to save configs to, set this to nil if  you want to disable configs saving
         Credit = "CREDITS"; -- text to appear if player presses the "i" button on their UI (optional)
-        Color = Color3.fromRGB(255, 255, 255); -- theme color for UI (required)
+        Color = _G.Color; -- theme color for UI (required)
         Bind = "V"; -- keybind for toggling the UI ( visible n not visible ), must be a valid KeyCode name
         -- Loader:
         UseLoader = true; -- whether to use Loader or not, if set to false than CheckKey and Discord are ignored
