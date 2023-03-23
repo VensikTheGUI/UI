@@ -4,11 +4,13 @@ for i,v in pairs(game.CoreGui:GetDescendants()) do
         v:Destroy()
     end -- END OF COREGUI
 end -- AutoDeleter
-
+--------------------------------------------------------------------------------------------------------------------------------------------------
 _G.Color = Color3.fromRGB(255, 255, 255) -- Change The 255, 255, 255 To Whatever You Want The Buttons, Title, Notifications, ETC To Be.
-_G.DestroyIfXPressed = false -- Destroys The UI If They X In The TopRight Is Pressed, If False Will Just Disable. ( Can Be Enabled Using Keybind )
+
+_G.DestroyIfXPressed = false -- Destroys The UI If They X In The TopRight Is Pressed, If False Will Just Disable, Meaning It Can Be Enabled Using ToggleBind.
+
 _G.ScriptName = "Venus" -- Appears in loader, and will appear if someone uses DarkDex.
----------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------
   local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/VenusTheGUIRemastered/UI/main/UILibrary"))()
     
     
